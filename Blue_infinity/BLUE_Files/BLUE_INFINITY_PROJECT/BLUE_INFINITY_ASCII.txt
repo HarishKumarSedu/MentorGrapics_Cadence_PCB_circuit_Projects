@@ -1,0 +1,8721 @@
+*PADS-LOGIC-V9.0* DESIGN EXPORT FILE FROM PADS LOGIC V9.3 
+*SCH*        GENERAL PARAMETERS OF THE SCHEMATIC DESIGN"
+
+CUR SHEET    1              Current Active Sheet
+USERGRID     50     10      Design and Label/Text grid settings
+LINEWIDTH    10             Width items will be created with
+CONNWIDTH    10             Width used to plot connections
+BUSWIDTH     25             Width used to plot buses
+BUSANGLE     25             Angle used when plotting buses
+NNVISPWRGND  4              Pwr/Gnd netname visibility default flag
+PCBFLAGS     10399          PCB Netlist and ECO options
+PINNAMESIZE  97     10      Height and LineWidth used by pin names
+TEXTSIZE     194    10      Height and LineWidth text will be created width
+JOBTIME      0              Amount of time spent on this LOGIC design
+DOTGRID      1000           Space in thous/inch between graphic dots
+BACKUPTIME   5              Number of minutes between database backups
+TIEDOTSIZE   80             Diameter of tiedot point
+REFNAMESIZE  100    10      Height and LineWidth used by part ref. names
+PARTNAMESIZE 100    10      Height and LineWidth used by part type names
+PINNOSIZE    97     10      Height and LineWidth used by pin numbers
+NETNAMESIZE  100    10      Height and LineWidth used by net names
+REAL WIDTH   20             Widths greater then this are displayed real size
+SHEET SIZE   B             
+UNITS        0              Rules units type
+JOBNAME      FINAL_BLUE.sch
+NTXCOL 11 9
+HIRCOL 14
+LINCOL 14
+TXTCOL 11 9
+CONCOL 13
+BUSCOL 13
+PTXCOL 11 9
+COMCOL 11
+NMCOL  11 9
+PNMCOL 11 9
+PINCOL 11 9
+NETCOL 11 9
+FBGCOL 15 0
+OFFREFVIEW   0              Offsheet references visibility default flag
+OFFREFNUM    0              Offsheet references per line
+SHEETNUMSEP  []             Sheet Number separators
+FONT MODE   System
+DEFAULT FONT "Regular Verdana"
+BORDER NAME SIZEB
+FIELDCOL 10 2
+
+*CAM* PLOTTER SETTINGS 
+
+*MISC*      MISCELLANEOUS PARAMETERS
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+LAYER	MILS
+{
+LAYER	0
+{
+LAYER_THICKNESS	0
+DIELECTRIC	3.300000
+}
+LAYER	1
+{
+LAYER_NAME	Top
+LAYER_TYPE	ROUTING
+PLANE	NONE
+ROUTING_DIRECTION	HORIZONTAL
+ASSOCIATED_SILK_SCREEN	Silkscreen Top
+ASSOCIATED_PASTE_MASK	Paste Mask Top
+ASSOCIATED_SOLDER_MASK	Solder Mask Top
+ASSOCIATED_ASSEMBLY	Assembly Drawing Top
+COMPONENT	Y
+ROUTABLE	Y
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	10
+COPPER_THICKNESS	1.35
+DIELECTRIC	4.300000
+COST	0
+}
+LAYER	2
+{
+LAYER_NAME	Bottom
+LAYER_TYPE	ROUTING
+PLANE	NONE
+ROUTING_DIRECTION	VERTICAL
+ASSOCIATED_SILK_SCREEN	Silkscreen Bottom
+ASSOCIATED_PASTE_MASK	Paste Mask Bottom
+ASSOCIATED_SOLDER_MASK	Solder Mask Bottom
+ASSOCIATED_ASSEMBLY	Assembly Drawing Bottom
+COMPONENT	Y
+ROUTABLE	Y
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	1.35
+DIELECTRIC	3.300000
+COST	0
+}
+LAYER	3
+{
+LAYER_NAME	Layer_3
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	4
+{
+LAYER_NAME	Layer_4
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	5
+{
+LAYER_NAME	Layer_5
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	6
+{
+LAYER_NAME	Layer_6
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	7
+{
+LAYER_NAME	Layer_7
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	8
+{
+LAYER_NAME	Layer_8
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	9
+{
+LAYER_NAME	Layer_9
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	10
+{
+LAYER_NAME	Layer_10
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	11
+{
+LAYER_NAME	Layer_11
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	12
+{
+LAYER_NAME	Layer_12
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	13
+{
+LAYER_NAME	Layer_13
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	14
+{
+LAYER_NAME	Layer_14
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	15
+{
+LAYER_NAME	Layer_15
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	16
+{
+LAYER_NAME	Layer_16
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	17
+{
+LAYER_NAME	Layer_17
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	18
+{
+LAYER_NAME	Layer_18
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	19
+{
+LAYER_NAME	Layer_19
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	20
+{
+LAYER_NAME	Layer_20
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	21
+{
+LAYER_NAME	Solder Mask Top
+LAYER_TYPE	SOLDER_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	22
+{
+LAYER_NAME	Paste Mask Bottom
+LAYER_TYPE	PASTE_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	23
+{
+LAYER_NAME	Paste Mask Top
+LAYER_TYPE	PASTE_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	24
+{
+LAYER_NAME	Drill Drawing
+LAYER_TYPE	DRILL
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	25
+{
+LAYER_NAME	Layer_25
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	26
+{
+LAYER_NAME	Silkscreen Top
+LAYER_TYPE	SILK_SCREEN
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	27
+{
+LAYER_NAME	Assembly Drawing Top
+LAYER_TYPE	ASSEMBLY
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	28
+{
+LAYER_NAME	Solder Mask Bottom
+LAYER_TYPE	SOLDER_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	29
+{
+LAYER_NAME	Silkscreen Bottom
+LAYER_TYPE	SILK_SCREEN
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	30
+{
+LAYER_NAME	Assembly Drawing Bottom
+LAYER_TYPE	ASSEMBLY
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+}
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+RULES_SECTION	MILS
+{
+NET_CLASS	DATA
+DESIGN	RULES
+{
+RULE_SET	(1)
+{
+FOR	:
+{
+DEFAULT	:
+}
+AGAINST	:
+{
+DEFAULT	:
+}
+LAYER	0
+CLEARANCE_RULE	:
+{
+TRACK_TO_TRACK	6
+VIA_TO_TRACK	6
+VIA_TO_VIA	6
+PAD_TO_TRACK	6
+PAD_TO_VIA	6
+PAD_TO_PAD	6
+SMD_TO_TRACK	6
+SMD_TO_VIA	6
+SMD_TO_PAD	6
+SMD_TO_SMD	6
+COPPER_TO_TRACK	6
+COPPER_TO_VIA	6
+COPPER_TO_PAD	6
+COPPER_TO_SMD	6
+COPPER_TO_COPPER	6
+TEXT_TO_TRACK	6
+TEXT_TO_VIA	6
+TEXT_TO_PAD	6
+TEXT_TO_SMD	6
+OUTLINE_TO_TRACK	6
+OUTLINE_TO_VIA	6
+OUTLINE_TO_PAD	6
+OUTLINE_TO_SMD	6
+OUTLINE_TO_COPPER	6
+DRILL_TO_TRACK	6
+DRILL_TO_VIA	6
+DRILL_TO_PAD	6
+DRILL_TO_SMD	6
+DRILL_TO_COPPER	6
+SAME_NET_SMD_TO_VIA	6
+SAME_NET_SMD_TO_CRN	6
+SAME_NET_VIA_TO_VIA	6
+SAME_NET_PAD_TO_CRN	6
+MIN_TRACK_WIDTH	6
+REC_TRACK_WIDTH	6
+MAX_TRACK_WIDTH	6
+DRILL_TO_DRILL	6
+BODY_TO_BODY	6
+SAME_NET_TRACK_TO_CRN	6
+}
+}
+RULE_SET	(2)
+{
+FOR	:
+{
+DEFAULT	:
+}
+AGAINST	:
+{
+DEFAULT	:
+}
+LAYER	0
+ROUTE_RULE	:
+{
+LENGTH_MINIMIZATION_TYPE	1
+TRACE_SHARE	Y
+VIA_SHARE	Y
+AUTO_ROUTE	Y
+RIPUP	Y
+SHOVE	Y
+ROUTE_PRIORITY	3
+MAX_NUMBER_OF_VIAS	-1
+VALID_LAYER	1
+VALID_LAYER	2
+VALID_VIA_TYPE	*USE_CURRENT*
+}
+}
+RULE_SET	(3)
+{
+FOR	:
+{
+DEFAULT	:
+}
+AGAINST	:
+{
+DEFAULT	:
+}
+LAYER	0
+HIGH_SPEED_RULE	:
+{
+MIN_LENGTH	0
+MAX_LENGTH	50000
+STUB_LENGTH	0
+PARALLEL_LENGTH	1000
+PARALLEL_GAP	200
+TANDEM_LENGTH	1000
+TANDEM_GAP	200
+MIN_DELAY	0.000000
+MAX_DELAY	10.000000
+MIN_CAPACITANCE	0.000000
+MAX_CAPACITANCE	10.000000
+MIN_IMPEDANCE	50.000000
+MAX_IMPEDANCE	150.000000
+SHIELD_NET	*
+SHIELD_GAP	200
+MATCH_LENGTH_TOLERANCE	200
+}
+}
+}
+}
+
+*FIELDS*    USER FIELDS
+
+"Drawn By" 
+"Checked By" 
+"QC By" 
+"Released By" 
+"Drawn Date" 
+"Checked Date" 
+"QC Date" 
+"Release Date" 
+"Company Name" 
+"Title" 
+"Code" 
+"Drawing Number" 
+"Revision" 
+"Scale" 
+
+*SHT*   1 SHEET1 -1 $$$NONE
+*CAE*        GENERAL PARAMETERS FOR THE SHEET"
+
+SCALE        3.851          Scale of window expansion
+WINDOWCENTER 2310   1724    Point defining the center of the window
+BITCS0       0              system status bits
+BITCS1       0              system status bits
+BITCS2       0              system status bits
+
+*TEXT*       FREE TEXT
+
+
+*LINES*      LINES ITEMS
+
+SIZEB            LINES    16000  1700   34  52
+OPEN   2   10  255
+0      0     
+-5010  0     
+OPEN   2   10  255
+-500   0     
+-500   -950  
+OPEN   2   10  255
+-1800  -950  
+-1800  -1200 
+OPEN   2   10  255
+-3100  0     
+-3100  -950  
+OPEN   2   10  255
+-3800  0     
+-3800  -950  
+OPEN   2   10  255
+0      -950  
+-5000  -950  
+OPEN   2   10  255
+-5000  1290  
+-5000  -1200 
+OPEN   2   10  255
+0      800   
+-5000  800   
+OPEN   2   10  255
+-5000  -400  
+-7500  -400  
+CLOSED 7   10  255
+0      -1200 
+0      1290  
+-5000  1290  
+-5000  400   
+-7500  400   
+-7500  -1200 
+0      -1200 
+OPEN   2   10  255
+-5010  0     
+-7500  0     
+OPEN   2   10  255
+-5000  -800  
+-7500  -800  
+OPEN   2   10  255
+-6000  400   
+-6000  -1200 
+OPEN   2   10  255
+502    1150  
+2      1150  
+OPEN   2   10  255
+500    3550  
+0      3550  
+OPEN   2   10  255
+500    5900  
+0      5900  
+OPEN   2   10  255
+-2864  8100  
+-2864  7100  
+OPEN   2   10  255
+-464   8100  
+-464   7100  
+OPEN   2   10  255
+-1364  8100  
+-1364  7100  
+OPEN   2   10  255
+-2800  8800  
+-2800  8300  
+OPEN   2   10  255
+-5300  8800  
+-5300  8300  
+OPEN   2   10  255
+-7800  8800  
+-7800  8300  
+OPEN   2   10  255
+-10300 8800  
+-10300 8300  
+OPEN   2   10  255
+-12800 8800  
+-12800 8300  
+OPEN   2   10  255
+-15000 5900  
+-15500 5900  
+OPEN   2   10  255
+-15000 1150  
+-15500 1150  
+OPEN   2   10  255
+-15000 3550  
+-15500 3550  
+OPEN   5   10  255
+0      -1200 
+0      8300  
+-15000 8300  
+-15000 -1200 
+0      -1200 
+OPEN   2   10  255
+-3450  8100  
+0      8100  
+OPEN   2   10  255
+-3450  7900  
+0      7900  
+OPEN   2   10  255
+-3450  7500  
+0      7500  
+OPEN   2   10  255
+-3450  7300  
+0      7300  
+CLOSED 5   10  255
+0      8300  
+-3450  8300  
+-3450  7100  
+0      7100  
+0      8300  
+OPEN   2   10  255
+-3450  7700  
+0      7700  
+-6300  150    0   9 153  10 1 "Default Font"
+Drawn By
+-6300  -250   0   9 153  10 1 "Default Font"
+Checked By
+-6300  -650   0   9 153  10 1 "Default Font"
+QC By
+-6300  -1050  0   9 153  10 1 "Default Font"
+Released By
+-6000  150    0   8 153  10 1 "Default Font"
+Drawn Date
+-6000  -250   0   8 153  10 1 "Default Font"
+Checked Date
+-6000  -650   0   8 153  10 1 "Default Font"
+QC Date
+-6000  -1050  0   8 153  10 1 "Default Font"
+Release Date
+-2500  1050   0   12 250  10 1 "Default Font"
+Company Name
+-2300  400    0   12 250  10 1 "Default Font"
+Title
+-4400  -600   0   12 306  10 1 "Default Font"
+Code
+-3450  -600   0   12 306  10 1 "Default Font"
+Sheet Size
+-2000  -600   0   12 306  10 1 "Default Font"
+Drawing Number
+-300   -600   0   12 306  10 1 "Default Font"
+Revision
+-4550  -1050  0   8 153  10 1 "Default Font"
+Scale
+-1350  -1050  0   8 153  10 1 "Default Font"
+Sheet Number
+-900   -1050  0   8 153  10 1 "Default Font"
+Number of Sheets
+-400   -200   0   0 97   10 0 "Default Font"
+REV:
+-3600  -200   0   0 97   10 0 "Default Font"
+SIZE:
+-4550  -200   0   0 97   10 0 "Default Font"
+CODE:
+-7460  250    0   0 97   10 0 "Default Font"
+DRAWN:
+-5960  250    0   0 97   10 0 "Default Font"
+DATED:
+-5960  -150   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -150   0   0 97   10 0 "Default Font"
+CHECKED:
+-7460  -550   0   0 97   10 0 "Default Font"
+QUALITY CONTROL:
+-5960  -550   0   0 97   10 0 "Default Font"
+DATED:
+-5960  -950   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -950   0   0 97   10 0 "Default Font"
+RELEASED:
+-4960  1100   0   0 97   10 0 "Default Font"
+COMPANY:
+-4960  600    0   0 97   10 0 "Default Font"
+TITLE:
+-2150  -200   0   0 97   10 0 "Default Font"
+DRAWING NO:
+-1750  -1100  0   0 97   10 0 "Default Font"
+SHEET:     OF
+-4950  -1100  0   0 97   10 0 "Default Font"
+SCALE:
+-2200  8150   0   0 97   10 0 "Default Font"
+REVISION RECORD
+-1200  7950   0   0 97   10 0 "Default Font"
+APPROVED:
+-2350  7950   0   0 97   10 0 "Default Font"
+ECO NO:
+100    -50    0   0 250  25 0 "Default Font"
+A
+100    2350   0   0 250  25 0 "Default Font"
+B
+100    7100   0   0 250  25 0 "Default Font"
+D
+-414   7950   0   0 97   10 0 "Default Font"
+DATE:
+-1550  8400   0   0 250  25 0 "Default Font"
+1
+-4050  8400   0   0 250  25 0 "Default Font"
+2
+-6550  8400   0   0 250  25 0 "Default Font"
+3
+-9050  8400   0   0 250  25 0 "Default Font"
+4
+-11550 8400   0   0 250  25 0 "Default Font"
+5
+-13900 8400   0   0 250  25 0 "Default Font"
+6
+-15250 7100   0   0 250  25 0 "Default Font"
+D
+-15250 4700   0   0 250  25 0 "Default Font"
+C
+-15250 -50    0   0 250  25 0 "Default Font"
+A
+-15250 2350   0   0 250  25 0 "Default Font"
+B
+100    4700   0   0 250  25 0 "Default Font"
+C
+-3250  7950   0   0 97   10 0 "Default Font"
+LTR
+
+*CAEDECAL*  ITEMS
+
+PIN              34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+140 20 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-520 0 0 1 100 10 "Default Font"
+*
+-80 0 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+
+PINB             34000 34000 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+140   0    
+190   0    
+
+PCLK             33500 33180 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+
+PCLKB            33500 33180 100 10 100 10 4 3 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+190   0    
+140   0    
+
+PINIEB           34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+220 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   4   10  255
+0     0    
+200   0    
+140   30   
+140   0    
+
+PINORB           34000 34000 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+300 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+180   0    
+CIRCLE 2   10  255
+230   0    
+180   0    
+
+PINSHORT         34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+60 10 0 1 100 10 "Default Font"
+REF-DES
+140 10 0 8 100 10 "Default Font"
+PART-TYPE
+-530 10 0 1 100 10 "Default Font"
+*
+-70 10 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+100   0    
+
+PINVRTS          34000 34000 100 10 100 10 4 1 0 0 3 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+20 -80 0 0 100 10 "Default Font"
+REF-DES
+-20 -40 0 9 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -100 
+0     0    
+
+REFIN            33500 33180 100 10 100 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+-360 0 0 1 100 10 "Default Font"
+REF-DES
+-360 -20 0 3 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   7   5   255
+0     0    
+-100  0    
+-150  -50  
+-300  -50  
+-300  50   
+-150  50   
+-100  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+REFOUT           33500 33180 100 10 100 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+350 10 0 0 100 10 "Default Font"
+REF-DES
+350 -10 0 2 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   8   5   255
+0     0    
+100   0    
+100   50   
+250   50   
+300   0    
+250   -50  
+100   -50  
+100   0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+GND              33500 33180 100 10 100 10 4 4 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+100 -50 0 0 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-60   -160 
+60    -160 
+OPEN   2   5   255
+-20   -220 
+20    -220 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+AGND             33500 33180 100 10 100 10 4 1 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+260 0 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   6   5   255
+0     0    
+0     -50  
+-100  -50  
+0     -200 
+100   -50  
+0     -50  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CHGND            33500 33180 100 10 100 10 4 5 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+264 -40 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-100  -100 
+-150  -200 
+OPEN   2   5   255
+0     -100 
+-50   -200 
+OPEN   2   5   255
+100   -100 
+50    -200 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5V              33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 250 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     200  
+COPCLS 4   5   255
+0     200  
+-50   100  
+50    100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+BUBBLE           33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     100  
+CIRCLE 2   10  255
+0     100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+Y                33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   3   10  255
+0     0    
+0     100  
+-100  200  
+OPEN   2   10  255
+0     100  
+100   200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++12V             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+4 484 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     300  
+COPCLS 4   5   255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   356    0   0 97  10
++12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-5V              33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+16 -520 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-80    -388   0   0 97  10
+-5V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-12V             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 -560 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-116   -412   0   0 97  10
+-12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5VA             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 468 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     300  
+COPCLS 4   10  255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   336    0   0 97  10
++5VA
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CAP              32000 32000 97 10 97 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 "Default Font"
+REF-DES
+210 -40 0 2 97 10 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 "Default Font"
+VALUE
+150 -340 0 2 97 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300 
+100   -300 
+OPEN   2   10  255
+0     -300 
+0     -500 
+T0     0     0 0 20 -90 0 0 -20 -40 0 9 PINVRTS
+P-110 -140 0 1 -30 14 0 1 0
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-110 -130 0 1 -30 14 0 1 0
+
+CAPA             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+180 -210 0 0 100 10 "Default Font"
+REF-DES
+240 -30 0 2 100 10 "Default Font"
+PART-TYPE
+180 -250 0 2 100 10 "Default Font"
+VALUE
+180 -360 0 2 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300  1333  -866  -140  -550  140   -260 
+100   -300 
+OPEN   2   10  255
+0     -260 
+0     -500 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-76 -112 0 1 0 0 0 0 128
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-72 -136 0 1 0 0 0 0 128
+
+CAPH             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+260 -140 0 6 100 10 "Default Font"
+VALUE
+260 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+100   0    
+200   0    
+OPEN   2   10  255
+300   0    
+400   0    
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100  
+300   -100 
+T0     0     0 0 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -110 0 1 0 0 0 0 128
+T500   0     0 1 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -120 0 1 0 0 0 0 128
+
+CAPAH            32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+250 -150 0 6 100 10 "Default Font"
+VALUE
+250 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100   1272  1056  250   -120  500   120  
+300   -100 
+OPEN   2   10  255
+200   0    
+100   0    
+OPEN   2   10  255
+250   0    
+400   0    
+T0     0     0 0 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+T500   0     0 1 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+
+LPC1             32000 32000 97 10 97 10 4 31 0 30 0 0
+TIMESTAMP 2018.07.15.09.21.24
+"Default Font"
+"Default Font"
+450 50 0 4 97 10 "Default Font"
+REF-DES
+950 300 0 6 97 10 "Default Font"
+PART-TYPE
+900 200 0 6 97 10 "Default Font"
+*
+900 100 0 6 97 10 "Default Font"
+*
+CLOSED 5   10  255
+-500  -400 
+-500  -3100
+1750  -3100
+1750  -400 
+-500  -400 
+OPEN   2   10  255
+-600  -500 
+-500  -500 
+OPEN   2   10  255
+-600  -600 
+-500  -600 
+OPEN   2   10  255
+-600  -900 
+-500  -900 
+OPEN   2   10  255
+-600  -1000
+-500  -1000
+OPEN   2   10  255
+-600  -1300
+-500  -1300
+OPEN   2   10  255
+-600  -1400
+-500  -1400
+OPEN   2   10  255
+-600  -1700
+-500  -1700
+OPEN   2   10  255
+-600  -1800
+-500  -1800
+OPEN   2   10  255
+-600  -2100
+-500  -2100
+OPEN   2   10  255
+-600  -2200
+-500  -2200
+OPEN   2   10  255
+-600  -2400
+-500  -2400
+OPEN   2   10  255
+-600  -2700
+-500  -2700
+OPEN   2   10  255
+1750  -600 
+1850  -600 
+OPEN   2   10  255
+1750  -700 
+1850  -700 
+OPEN   2   10  255
+1750  -1100
+1850  -1100
+OPEN   2   10  255
+1750  -1400
+1850  -1400
+OPEN   2   10  255
+1750  -1800
+1850  -1800
+OPEN   2   10  255
+1750  -2300
+1850  -2300
+OPEN   2   10  255
+1750  -2500
+1850  -2500
+OPEN   2   10  255
+1750  -2900
+1850  -2900
+OPEN   2   10  255
+550   -300 
+550   -400 
+OPEN   2   10  255
+650   -300 
+650   -400 
+OPEN   2   10  255
+750   -300 
+750   -400 
+OPEN   2   10  255
+450   -300 
+450   -400 
+OPEN   2   10  255
+500   -3100
+500   -3200
+OPEN   2   10  255
+600   -3100
+600   -3200
+OPEN   2   10  255
+800   -3100
+800   -3200
+OPEN   2   10  255
+900   -3100
+900   -3200
+OPEN   2   10  255
+700   -3100
+700   -3200
+OPEN   2   10  255
+1000  -3100
+1000  -3200
+T1950  -600  0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -700  0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -1100 0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -1400 0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -1800 0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -2300 0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -2500 0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1950  -2900 0 1 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T450   -200  90 2 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T550   -200  90 2 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T650   -200  90 2 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T750   -200  90 2 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -500  0 0 60 10 0 1 200 0 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -600  0 0 60 10 0 1 200 0 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -900  0 0 60 10 0 1 200 0 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -1000 0 0 60 10 0 1 200 0 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -1300 0 0 60 10 0 1 200 0 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -1400 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -1700 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -1800 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -2100 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -2200 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -2400 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-700  -2700 0 0 60 10 0 1 190 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T500   -3300 90 0 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T600   -3300 90 0 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T700   -3300 90 0 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T800   -3300 90 0 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T900   -3300 90 0 60 10 0 1 240 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T1000  -3300 90 0 60 10 0 1 240 60 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+M3               32000 32000 139 10 139 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.12.04.51.55
+"Default Font"
+"Default Font"
+50 -200 0 4 139 10 "Default Font"
+REF-DES
+50 -250 0 6 139 10 "Default Font"
+PART-TYPE
+50 -350 0 6 139 10 "Default Font"
+*
+50 -450 0 6 139 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 300 0 0 8 PINORB
+P-500 10 0 1 -30 14 0 1 0
+
+TAG_CUT          33500 33500 97 10 97 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.19.03.23.27
+"Default Font"
+"Default Font"
+300 -50 0 4 97 10 "Default Font"
+REF-DES
+350 -100 0 6 97 10 "Default Font"
+PART-TYPE
+350 -200 0 6 97 10 "Default Font"
+*
+350 -300 0 6 97 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 230 0 0 8 PINB
+P-500 10 0 1 -30 14 0 1 0
+
+B_CUTCIRCLE      33500 33500 97 10 97 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.19.03.29.04
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 "Default Font"
+REF-DES
+450 0 0 6 97 10 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 "Default Font"
+*
+150 -200 0 6 97 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 230 0 0 8 PINB
+P-500 10 0 1 -30 14 0 1 0
+
+B_CUTRECT        32000 32000 97 10 97 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.19.05.35.18
+"Default Font"
+"Default Font"
+250 50 0 4 97 10 "Default Font"
+REF-DES
+450 0 0 6 97 10 "Default Font"
+PART-TYPE
+100 -100 0 6 97 10 "Default Font"
+*
+100 -200 0 6 97 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 230 0 0 8 PINB
+P-500 10 0 1 -30 14 0 1 0
+
+USB_HOLE         33500 33500 97 10 97 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.19.05.12.20
+"Default Font"
+"Default Font"
+450 150 0 4 97 10 "Default Font"
+REF-DES
+450 50 0 6 97 10 "Default Font"
+PART-TYPE
+50 -100 0 6 97 10 "Default Font"
+*
+50 -200 0 6 97 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 230 0 0 8 PINB
+P-500 10 0 1 -30 14 0 1 0
+
+
+*PARTTYPE*   ITEMS
+
+$OSR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+OFF 2
+REFIN S 
+REFOUT L 
+
+$GND_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+GND 3
+GND G GND
+AGND G AGND
+CHGND G CHGND
+
+$PWR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+PWR 7
++5V P +5V
+BUBBLE P +5V
+Y P +5V
++12V P +12V
+-5V P -5V
+-12V P -12V
++5VA P +5VA
+
+CAP-CC05 CAP  1   0   0     0
+TIMESTAMP 2018.07.18.06.01.34
+GATE 4 2 0
+CAP
+CAPA
+CAPH
+CAPAH
+1 1 U
+2 1 U
+
+M3 MTH  1   0   0     0
+TIMESTAMP 2018.07.12.04.51.54
+GATE 1 1 0
+M3
+1 0 U
+
+LPC1 UND  1   0   0     0
+TIMESTAMP 2018.07.15.09.21.22
+GATE 1 30 0
+LPC1
+98 0 U P0[2]/TXD0/AD0[7]
+99 0 U P0[3]/RXD0/AD0[6]
+20 0 U P1[31]/SCK1/AD0[5]
+7 0 U P0[25]/AD0[2]/I2SRX_SDA/TXD3
+6 0 U P0[26]/AD0[3]/AOUT/RXD3
+32 0 U P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]
+45 0 U P1[29]/MC2B/PCAP1[1]/MAT0[1
+93 0 U P1[4]/ENET_TX_EN
+96 0 U VDD4
+71 0 U VDD3
+54 0 U VDD2
+28 0 U VDD1
+42 0 U VDD_REG_1
+84 0 U VDD_REG_2
+12 0 U VREF+
+15 0 U VREF-
+10 0 U VDDA
+11 0 U VSSA
+16 0 U RTCK_1
+18 0 U RTCK_0
+22 0 U XTAL_1
+23 0 U XTAL_0
+17 0 U ~RESET
+53 0 U P2.0/~EINT0/NM
+31 0 U VSS1
+41 0 U VSS2
+55 0 U VSS3
+72 0 U VSS4
+83 0 U VSS5
+97 0 U VSS6
+
+TAG_CUT UND  1   0   0     0
+TIMESTAMP 2018.07.19.03.23.27
+GATE 1 1 0
+TAG_CUT
+1 0 U
+
+B_CUTCIRCLE CUT  1   0   0     0
+TIMESTAMP 2018.07.19.03.29.08
+GATE 1 1 0
+B_CUTCIRCLE
+1 0 U
+
+B_CUTRECT UND  1   0   0     0
+TIMESTAMP 2018.07.19.05.35.17
+GATE 1 1 0
+B_CUTRECT
+1 0 U
+
+USB_HOLE CUT  1   0   0     0
+TIMESTAMP 2018.07.19.05.12.20
+GATE 1 1 0
+USB_HOLE
+1 0 U
+
+
+
+*PART*       ITEMS
+
+
+
+U1           LPC1             4900  9000    0 0 97 10 97 10 4 1 30 0 0 0
+"Default Font"
+"Default Font"
+450 50 0 4 97 10 0 "Default Font"
+REF-DES
+950 300 0 6 97 10 0 "Default Font"
+PART-TYPE
+900 200 0 6 97 10 0 "Default Font"
+*
+900 100 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" QFP50P1600X1600X100-100L_LPC1768
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+4 60 10 0 1
+5 60 10 0 1
+6 60 10 0 1
+7 60 10 0 1
+8 60 10 0 1
+9 60 10 0 1
+10 60 10 0 1
+11 60 10 0 1
+12 60 10 0 1
+13 60 10 0 1
+14 60 10 0 1
+15 60 10 0 1
+16 60 10 0 1
+17 60 10 0 1
+18 60 10 0 1
+19 60 10 0 1
+20 60 10 0 1
+21 60 10 0 1
+22 60 10 0 1
+23 60 10 0 1
+24 60 10 0 1
+25 60 10 0 1
+26 60 10 0 1
+27 60 10 0 1
+28 60 10 0 1
+29 60 10 0 1
+
+C8           CAP-CC05         6100  9200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C9           CAP-CC05         6500  9200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C10          CAP-CC05         7100  9200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C11          CAP-CC05         7500  9200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C12          CAP-CC05         2700  9000    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C13          CAP-CC05         3200  9000    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C14          CAP-CC05         3600  9000    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+U3           M3               9300  5200    0 0 139 10 139 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+50 -200 0 4 139 10 0 "Default Font"
+REF-DES
+50 -250 0 6 139 10 0 "Default Font"
+PART-TYPE
+50 -350 0 6 139 10 0 "Default Font"
+*
+50 -450 0 6 139 10 0 "Default Font"
+*
+"PCB DECAL" M31
+0 130 14 0 1
+
+U4           M3               10200 5100    0 0 139 10 139 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+50 -200 0 4 139 10 0 "Default Font"
+REF-DES
+50 -250 0 6 139 10 0 "Default Font"
+PART-TYPE
+50 -350 0 6 139 10 0 "Default Font"
+*
+50 -450 0 6 139 10 0 "Default Font"
+*
+"PCB DECAL" M31
+0 130 14 0 1
+
+U5           M3               10100 5900    0 0 139 10 139 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+50 -200 0 4 139 10 0 "Default Font"
+REF-DES
+50 -250 0 6 139 10 0 "Default Font"
+PART-TYPE
+50 -350 0 6 139 10 0 "Default Font"
+*
+50 -450 0 6 139 10 0 "Default Font"
+*
+"PCB DECAL" M31
+0 130 14 0 1
+
+X1           TAG_CUT          2650  4350    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 -50 0 4 97 10 0 "Default Font"
+REF-DES
+350 -100 0 6 97 10 0 "Default Font"
+PART-TYPE
+350 -200 0 6 97 10 0 "Default Font"
+*
+350 -300 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" TAG_CUT
+0 130 14 0 1
+
+X2           B_CUTCIRCLE      3650  3250    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 0 "Default Font"
+REF-DES
+450 0 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 0 "Default Font"
+*
+150 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTCIRCLE
+0 130 14 0 1
+
+X3           B_CUTCIRCLE      3650  2950    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 0 "Default Font"
+REF-DES
+450 0 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 0 "Default Font"
+*
+150 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTCIRCLE
+0 130 14 0 1
+
+X4           B_CUTCIRCLE      3700  2650    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 0 "Default Font"
+REF-DES
+450 0 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 0 "Default Font"
+*
+150 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTCIRCLE
+0 130 14 0 1
+
+X5           B_CUTCIRCLE      4650  3250    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 0 "Default Font"
+REF-DES
+450 0 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 0 "Default Font"
+*
+150 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTCIRCLE
+0 130 14 0 1
+
+X6           B_CUTRECT        4750  2850    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+250 50 0 4 97 10 0 "Default Font"
+REF-DES
+450 0 0 6 97 10 0 "Default Font"
+PART-TYPE
+100 -100 0 6 97 10 0 "Default Font"
+*
+100 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTRECT1
+0 130 14 0 1
+
+X9           USB_HOLE         4850  2300    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+450 150 0 4 97 10 0 "Default Font"
+REF-DES
+450 50 0 6 97 10 0 "Default Font"
+PART-TYPE
+50 -100 0 6 97 10 0 "Default Font"
+*
+50 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" USB_HOLE
+0 130 14 0 1
+
+X10          B_CUTCIRCLE      4800  2650    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 0 "Default Font"
+REF-DES
+370 -50 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 0 "Default Font"
+*
+150 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTCIRCLE
+0 130 14 0 1
+
+X11          B_CUTCIRCLE      5750  3050    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+300 50 0 4 97 10 0 "Default Font"
+REF-DES
+450 0 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -100 0 6 97 10 0 "Default Font"
+*
+150 -200 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" B_CUTCIRCLE
+0 130 14 0 1
+
+
+*BUSSES*
+
+
+*OFFPAGE REFS*
+
+
+
+@@@O0    FOR_ENV_TEMP_SENS_6 $OSR_SYMS 7300   7200   0 1 0
+@@@O1    FOR_TEMP_SENS_7 $OSR_SYMS 7300   7600   0 1 0
+@@@O2    VDDA_10 $OSR_SYMS 3700   7700   0 0 0
+@@@O3    VSSA_11 $OSR_SYMS 3700   7600   0 0 0
+@@@O4    VREF-_15 $OSR_SYMS 3700   8000   0 0 0
+@@@O5    VREF+_12 $OSR_SYMS 3700   8100   0 0 0
+@@@O6    RTCK_1_16 $OSR_SYMS 3700   7300   0 0 0
+@@@O7    RTCK_0_18 $OSR_SYMS 3700   7200   0 0 0
+@@@O8    RESET_17 $OSR_SYMS 3700   6600   0 0 0
+@@@O9    XTAL_1_22 $OSR_SYMS 3700   6900   0 0 0
+@@@O10   XTAL_0_23 $OSR_SYMS 3700   6800   0 0 0
+@@@O11   FOR_FSR_20 $OSR_SYMS 7300   7900   0 1 0
+@@@O12   USB_UP_LED_32 $OSR_SYMS 7300   6700   0 1 0
+@@@O13   TEST_LED_45 $OSR_SYMS 7300   6500   0 1 0
+@@@O14   GND $GND_SYMS 8200   8600   0 0 0
+@@@O15   GND $GND_SYMS 2200   8300   0 0 0
+@@@O16   +3.3V $PWR_SYMS 2700   9400   0 0 0
+@@@O17   +3.3V $PWR_SYMS 7500   9500   0 0 0
+@@@O18   GND $GND_SYMS 5900   5000   0 0 0
+@@@O19   UART_RX0_99 $OSR_SYMS 7300   8300   0 1 0
+@@@O20   UART_TX0_98 $OSR_SYMS 7300   8400   0 1 0
+@@@O21   RESET_53 $OSR_SYMS 3700   6300   0 0 0
+@@@O22   GND $GND_SYMS 7300   6000   0 0 0
+
+*TIEDOTS*
+
+
+
+@@@D0    6100   9200  
+@@@D1    6500   9200  
+@@@D2    7100   9200  
+@@@D3    6500   8700  
+@@@D4    7100   8700  
+@@@D5    7500   8700  
+@@@D6    5500   5500  
+@@@D7    5600   5500  
+@@@D8    5700   5500  
+@@@D9    4100   8500  
+@@@D10   3600   9200  
+@@@D11   3200   9200  
+@@@D12   3200   8400  
+@@@D13   2700   8400  
+@@@D14   2700   9200  
+@@@D15   5450   9200  
+@@@D16   5550   9200  
+@@@D17   5650   9200  
+@@@D18   7500   9200  
+@@@D19   5900   5500  
+
+*CONNECTION*
+
+
+*SIGNAL* FOR_ENV_TEMP_SENS_6 0 0
+U1.6         @@@O0        2 0
+6850   7200  
+7300   7200  
+
+*SIGNAL* FOR_TEMP_SENS_7 0 0
+U1.7         @@@O1        2 0
+6850   7600  
+7300   7600  
+
+*SIGNAL* VDDA_10 0 0
+U1.10        @@@O2        2 0
+4200   7700  
+3700   7700  
+
+*SIGNAL* VSSA_11 0 0
+U1.11        @@@O3        2 0
+4200   7600  
+3700   7600  
+
+*SIGNAL* VREF-_15 0 0
+U1.15        @@@O4        2 0
+4200   8000  
+3700   8000  
+
+*SIGNAL* RTCK_1_16 0 0
+U1.16        @@@O6        2 0
+4200   7300  
+3700   7300  
+
+*SIGNAL* RTCK_0_18 0 0
+U1.18        @@@O7        2 0
+4200   7200  
+3700   7200  
+
+*SIGNAL* RESET_17 0 0
+U1.17        @@@O8        2 0
+4200   6600  
+3700   6600  
+
+*SIGNAL* XTAL_1_22 0 0
+U1.22        @@@O9        2 0
+4200   6900  
+3700   6900  
+
+*SIGNAL* XTAL_0_23 0 0
+U1.23        @@@O10       2 0
+4200   6800  
+3700   6800  
+
+*SIGNAL* FOR_FSR_20 0 0
+U1.20        @@@O11       2 0
+6850   7900  
+7300   7900  
+
+*SIGNAL* USB_UP_LED_32 0 0
+U1.32        @@@O12       2 0
+6850   6700  
+7300   6700  
+
+*SIGNAL* TEST_LED_45 0 0
+U1.45        @@@O13       2 0
+6850   6500  
+7300   6500  
+
+*SIGNAL* +3.3V 0 0
+U1.96        @@@D15       3 0
+5350   8800  
+5350   9200  
+5450   9200  
+C9.1         @@@D1        2 0
+6500   9200  
+6500   9200  
+@@@D0        C8.1         2 0
+6100   9200  
+6100   9200  
+C10.1        @@@D2        2 0
+7100   9200  
+7100   9200  
+@@@D1        @@@D0        2 0
+6500   9200  
+6100   9200  
+C11.1        @@@D18       2 0
+7500   9200  
+7500   9200  
+@@@D2        @@@D1        2 0
+7100   9200  
+6500   9200  
+U1.84        @@@D9        3 0
+4200   8400  
+4100   8400  
+4100   8500  
+@@@D9        U1.42        2 0
+4100   8500  
+4200   8500  
+@@@D9        @@@D10       3 0
+4100   8500  
+4100   9200  
+3600   9200  
+C13.1        @@@D11       2 0
+3200   9000  
+3200   9200  
+@@@D10       C14.1        2 0
+3600   9200  
+3600   9000  
+C12.1        @@@D14       2 0
+2700   9000  
+2700   9200  
+@@@D11       @@@D10       2 0
+3200   9200  
+3600   9200  
+@@@D14       @@@D11       2 0
+2700   9200  
+3200   9200  
+@@@D14       @@@O16       2 0
+2700   9200  
+2700   9400  
+U1.71        @@@D15       2 0
+5450   8800  
+5450   9200  
+@@@D15       @@@D16       2 0
+5450   9200  
+5550   9200  
+U1.54        @@@D16       2 0
+5550   8800  
+5550   9200  
+@@@D16       @@@D17       2 0
+5550   9200  
+5650   9200  
+U1.28        @@@D17       2 0
+5650   8800  
+5650   9200  
+@@@D17       @@@D0        2 0
+5650   9200  
+6100   9200  
+@@@D18       @@@D2        2 0
+7500   9200  
+7100   9200  
+@@@D18       @@@O17       2 0
+7500   9200  
+7500   9500  
+
+*SIGNAL* GND 0 0
+C8.2         @@@D3        2 0
+6100   8700  
+6500   8700  
+C10.2        @@@D4        2 0
+7100   8700  
+7100   8700  
+@@@D3        C9.2         2 0
+6500   8700  
+6500   8700  
+C11.2        @@@D5        2 0
+7500   8700  
+7500   8700  
+@@@D4        @@@D3        2 0
+7100   8700  
+6500   8700  
+@@@D4        @@@D5        2 0
+7100   8700  
+7500   8700  
+@@@D5        @@@O14       3 0
+7500   8700  
+8200   8700  
+8200   8600  
+U1.31        @@@D6        3 0
+5400   5700  
+5400   5500  
+5500   5500  
+U1.55        @@@D7        2 0
+5600   5700  
+5600   5500  
+@@@D6        U1.41        2 0
+5500   5500  
+5500   5700  
+U1.72        @@@D8        2 0
+5700   5700  
+5700   5500  
+@@@D7        @@@D6        2 0
+5600   5500  
+5500   5500  
+U1.97        @@@D19       2 0
+5900   5700  
+5900   5500  
+@@@D8        @@@D7        2 0
+5700   5500  
+5600   5500  
+C14.2        @@@D12       3 0
+3600   8500  
+3600   8400  
+3200   8400  
+@@@D12       C13.2        2 0
+3200   8400  
+3200   8500  
+@@@D12       @@@D13       2 0
+3200   8400  
+2700   8400  
+@@@D13       C12.2        2 0
+2700   8400  
+2700   8500  
+@@@D13       @@@O15       3 0
+2700   8400  
+2200   8400  
+2200   8300  
+@@@D19       @@@D8        2 0
+5900   5500  
+5700   5500  
+@@@D19       @@@O18       2 0
+5900   5500  
+5900   5000  
+U1.93        @@@O22       3 0
+6850   6100  
+7300   6100  
+7300   6000  
+
+*SIGNAL* UART_RX0_99 0 0
+U1.99        @@@O19       2 0
+6850   8300  
+7300   8300  
+
+*SIGNAL* UART_TX0_98 0 0
+U1.98        @@@O20       2 0
+6850   8400  
+7300   8400  
+
+*SIGNAL* RESET_53 0 0
+U1.53        @@@O21       2 0
+4200   6300  
+3700   6300  
+
+*SIGNAL* VREF+_12 0 0
+U1.12        @@@O5        2 0
+4200   8100  
+3700   8100  
+
+*NETNAMES*
+
+
+
+FOR_ENV_TEMP_SENS_6 @@@O0        360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
+FOR_TEMP_SENS_7 @@@O1        360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
+VDDA_10      @@@O2        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+VSSA_11      @@@O3        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+VREF-_15     @@@O4        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+VREF+_12     @@@O5        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+RTCK_1_16    @@@O6        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+RTCK_0_18    @@@O7        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+RESET_17     @@@O8        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+XTAL_1_22    @@@O9        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+XTAL_0_23    @@@O10       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+FOR_FSR_20   @@@O11       360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
+USB_UP_LED_32 @@@O12       360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
+TEST_LED_45  @@@O13       360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
++3.3V        @@@O16       0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
++3.3V        @@@O17       0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+UART_RX0_99  @@@O19       360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
+UART_TX0_98  @@@O20       360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
+RESET_53     @@@O21       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+
+*SHT*   2 SHEET2 -1 $$$NONE
+*CAE*        GENERAL PARAMETERS FOR THE SHEET"
+
+SCALE        3.157          Scale of window expansion
+WINDOWCENTER 5072   3281    Point defining the center of the window
+BITCS0       0              system status bits
+BITCS1       0              system status bits
+BITCS2       0              system status bits
+
+*TEXT*       FREE TEXT
+
+4000   9000   0   0 194  10 0 "Default Font"
+FOR_ENV_TEMP_SENS
+8000   9300   0   0 194  10 0 "Default Font"
+FOR_TEMP_SENS
+4200   3100   0   0 194  10 0 "Default Font"
+RESET_17
+13000  7000   0   0 194  10 0 "Default Font"
+RTCK
+
+*LINES*      LINES ITEMS
+
+SIZEB            LINES    16000  1700   34  52
+OPEN   2   10  255
+0      0     
+-5010  0     
+OPEN   2   10  255
+-500   0     
+-500   -950  
+OPEN   2   10  255
+-1800  -950  
+-1800  -1200 
+OPEN   2   10  255
+-3100  0     
+-3100  -950  
+OPEN   2   10  255
+-3800  0     
+-3800  -950  
+OPEN   2   10  255
+0      -950  
+-5000  -950  
+OPEN   2   10  255
+-5000  1290  
+-5000  -1200 
+OPEN   2   10  255
+0      800   
+-5000  800   
+OPEN   2   10  255
+-5000  -400  
+-7500  -400  
+CLOSED 7   10  255
+0      -1200 
+0      1290  
+-5000  1290  
+-5000  400   
+-7500  400   
+-7500  -1200 
+0      -1200 
+OPEN   2   10  255
+-5010  0     
+-7500  0     
+OPEN   2   10  255
+-5000  -800  
+-7500  -800  
+OPEN   2   10  255
+-6000  400   
+-6000  -1200 
+OPEN   2   10  255
+502    1150  
+2      1150  
+OPEN   2   10  255
+500    3550  
+0      3550  
+OPEN   2   10  255
+500    5900  
+0      5900  
+OPEN   2   10  255
+-2864  8100  
+-2864  7100  
+OPEN   2   10  255
+-464   8100  
+-464   7100  
+OPEN   2   10  255
+-1364  8100  
+-1364  7100  
+OPEN   2   10  255
+-2800  8800  
+-2800  8300  
+OPEN   2   10  255
+-5300  8800  
+-5300  8300  
+OPEN   2   10  255
+-7800  8800  
+-7800  8300  
+OPEN   2   10  255
+-10300 8800  
+-10300 8300  
+OPEN   2   10  255
+-12800 8800  
+-12800 8300  
+OPEN   2   10  255
+-15000 5900  
+-15500 5900  
+OPEN   2   10  255
+-15000 1150  
+-15500 1150  
+OPEN   2   10  255
+-15000 3550  
+-15500 3550  
+OPEN   5   10  255
+0      -1200 
+0      8300  
+-15000 8300  
+-15000 -1200 
+0      -1200 
+OPEN   2   10  255
+-3450  8100  
+0      8100  
+OPEN   2   10  255
+-3450  7900  
+0      7900  
+OPEN   2   10  255
+-3450  7500  
+0      7500  
+OPEN   2   10  255
+-3450  7300  
+0      7300  
+CLOSED 5   10  255
+0      8300  
+-3450  8300  
+-3450  7100  
+0      7100  
+0      8300  
+OPEN   2   10  255
+-3450  7700  
+0      7700  
+-6300  150    0   9 153  10 1 "Default Font"
+Drawn By
+-6300  -250   0   9 153  10 1 "Default Font"
+Checked By
+-6300  -650   0   9 153  10 1 "Default Font"
+QC By
+-6300  -1050  0   9 153  10 1 "Default Font"
+Released By
+-6000  150    0   8 153  10 1 "Default Font"
+Drawn Date
+-6000  -250   0   8 153  10 1 "Default Font"
+Checked Date
+-6000  -650   0   8 153  10 1 "Default Font"
+QC Date
+-6000  -1050  0   8 153  10 1 "Default Font"
+Release Date
+-2500  1050   0   12 250  10 1 "Default Font"
+Company Name
+-2300  400    0   12 250  10 1 "Default Font"
+Title
+-4400  -600   0   12 306  10 1 "Default Font"
+Code
+-3450  -600   0   12 306  10 1 "Default Font"
+Sheet Size
+-2000  -600   0   12 306  10 1 "Default Font"
+Drawing Number
+-300   -600   0   12 306  10 1 "Default Font"
+Revision
+-4550  -1050  0   8 153  10 1 "Default Font"
+Scale
+-1350  -1050  0   8 153  10 1 "Default Font"
+Sheet Number
+-900   -1050  0   8 153  10 1 "Default Font"
+Number of Sheets
+-400   -200   0   0 97   10 0 "Default Font"
+REV:
+-3600  -200   0   0 97   10 0 "Default Font"
+SIZE:
+-4550  -200   0   0 97   10 0 "Default Font"
+CODE:
+-7460  250    0   0 97   10 0 "Default Font"
+DRAWN:
+-5960  250    0   0 97   10 0 "Default Font"
+DATED:
+-5960  -150   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -150   0   0 97   10 0 "Default Font"
+CHECKED:
+-7460  -550   0   0 97   10 0 "Default Font"
+QUALITY CONTROL:
+-5960  -550   0   0 97   10 0 "Default Font"
+DATED:
+-5960  -950   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -950   0   0 97   10 0 "Default Font"
+RELEASED:
+-4960  1100   0   0 97   10 0 "Default Font"
+COMPANY:
+-4960  600    0   0 97   10 0 "Default Font"
+TITLE:
+-2150  -200   0   0 97   10 0 "Default Font"
+DRAWING NO:
+-1750  -1100  0   0 97   10 0 "Default Font"
+SHEET:     OF
+-4950  -1100  0   0 97   10 0 "Default Font"
+SCALE:
+-2200  8150   0   0 97   10 0 "Default Font"
+REVISION RECORD
+-1200  7950   0   0 97   10 0 "Default Font"
+APPROVED:
+-2350  7950   0   0 97   10 0 "Default Font"
+ECO NO:
+100    -50    0   0 250  25 0 "Default Font"
+A
+100    2350   0   0 250  25 0 "Default Font"
+B
+100    7100   0   0 250  25 0 "Default Font"
+D
+-414   7950   0   0 97   10 0 "Default Font"
+DATE:
+-1550  8400   0   0 250  25 0 "Default Font"
+1
+-4050  8400   0   0 250  25 0 "Default Font"
+2
+-6550  8400   0   0 250  25 0 "Default Font"
+3
+-9050  8400   0   0 250  25 0 "Default Font"
+4
+-11550 8400   0   0 250  25 0 "Default Font"
+5
+-13900 8400   0   0 250  25 0 "Default Font"
+6
+-15250 7100   0   0 250  25 0 "Default Font"
+D
+-15250 4700   0   0 250  25 0 "Default Font"
+C
+-15250 -50    0   0 250  25 0 "Default Font"
+A
+-15250 2350   0   0 250  25 0 "Default Font"
+B
+100    4700   0   0 250  25 0 "Default Font"
+C
+-3250  7950   0   0 97   10 0 "Default Font"
+LTR
+D32303           LINES    3900   8900   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1300 
+1500   -1300 
+1500   0     
+0      0     
+D32304           LINES    7900   9200   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1300 
+1500   -1300 
+1500   0     
+0      0     
+D32305           LINES    4000   2900   1   0
+CLOSED 5   30  0  
+0      0     
+0      -800  
+1300   -800  
+1300   0     
+0      0     
+
+*CAEDECAL*  ITEMS
+
+PIN              34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+140 20 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-520 0 0 1 100 10 "Default Font"
+*
+-80 0 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+
+PINB             34000 34000 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+140   0    
+190   0    
+
+PCLK             33500 33180 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+
+PCLKB            33500 33180 100 10 100 10 4 3 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+190   0    
+140   0    
+
+PINIEB           34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+220 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   4   10  255
+0     0    
+200   0    
+140   30   
+140   0    
+
+PINORB           34000 34000 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+300 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+180   0    
+CIRCLE 2   10  255
+230   0    
+180   0    
+
+PINSHORT         34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+60 10 0 1 100 10 "Default Font"
+REF-DES
+140 10 0 8 100 10 "Default Font"
+PART-TYPE
+-530 10 0 1 100 10 "Default Font"
+*
+-70 10 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+100   0    
+
+PINVRTS          34000 34000 100 10 100 10 4 1 0 0 3 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+20 -80 0 0 100 10 "Default Font"
+REF-DES
+-20 -40 0 9 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -100 
+0     0    
+
+REFIN            33500 33180 100 10 100 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+-360 0 0 1 100 10 "Default Font"
+REF-DES
+-360 -20 0 3 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   7   5   255
+0     0    
+-100  0    
+-150  -50  
+-300  -50  
+-300  50   
+-150  50   
+-100  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+REFOUT           33500 33180 100 10 100 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+350 10 0 0 100 10 "Default Font"
+REF-DES
+350 -10 0 2 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   8   5   255
+0     0    
+100   0    
+100   50   
+250   50   
+300   0    
+250   -50  
+100   -50  
+100   0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+GND              33500 33180 100 10 100 10 4 4 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+100 -50 0 0 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-60   -160 
+60    -160 
+OPEN   2   5   255
+-20   -220 
+20    -220 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+AGND             33500 33180 100 10 100 10 4 1 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+260 0 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   6   5   255
+0     0    
+0     -50  
+-100  -50  
+0     -200 
+100   -50  
+0     -50  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CHGND            33500 33180 100 10 100 10 4 5 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+264 -40 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-100  -100 
+-150  -200 
+OPEN   2   5   255
+0     -100 
+-50   -200 
+OPEN   2   5   255
+100   -100 
+50    -200 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5V              33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 250 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     200  
+COPCLS 4   5   255
+0     200  
+-50   100  
+50    100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+BUBBLE           33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     100  
+CIRCLE 2   10  255
+0     100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+Y                33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   3   10  255
+0     0    
+0     100  
+-100  200  
+OPEN   2   10  255
+0     100  
+100   200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++12V             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+4 484 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     300  
+COPCLS 4   5   255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   356    0   0 97  10
++12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-5V              33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+16 -520 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-80    -388   0   0 97  10
+-5V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-12V             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 -560 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-116   -412   0   0 97  10
+-12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5VA             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 468 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     300  
+COPCLS 4   10  255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   336    0   0 97  10
++5VA
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CONIN            32000 32000 97 10 97 10 4 3 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 "Default Font"
+*
+-850 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-600  100  
+-600  -100 
+OPEN   2   10  255
+-200  100  
+-200  -100 
+OPEN   2   10  255
+-200  0    
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+CONOUT           32000 32000 97 10 97 10 4 3 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+400 -30 0 4 100 10 "Default Font"
+REF-DES
+780 -110 0 6 100 10 "Default Font"
+PART-TYPE
+840 80 0 6 100 10 "Default Font"
+*
+840 -20 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+600   100  
+600   -100 
+OPEN   2   10  255
+200   0    
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+CONIN1           32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-540 -30 0 4 100 10 "Default Font"
+REF-DES
+-540 -200 0 6 100 10 "Default Font"
+PART-TYPE
+-530 -300 0 6 100 10 "Default Font"
+*
+-530 -400 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-200  0    
+0     0    
+CLOSED 5   10  255
+-300  100   900   -1800 -400  -100  -200  100  
+-300  -100 
+-800  -100  2700  -1800 -900  -100  -700  100  
+-800  100  
+-300  100  
+T0     0     0 0 90 -30 0 0 0 0 0 8 
+P10 200 0 0 0 0 0 0 192
+
+CONOUT1          32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+550 -30 0 4 100 10 "Default Font"
+REF-DES
+550 -200 0 6 100 10 "Default Font"
+PART-TYPE
+550 -310 0 6 100 10 "Default Font"
+*
+550 -420 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   0    
+0     0    
+CLOSED 5   10  255
+300   100   900   1800  200   -100  400   100  
+300   -100 
+800   -100  2700  1800  700   -100  900   100  
+800   100  
+300   100  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P-90 200 0 0 0 0 0 0 192
+
+CON_IO           32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-500 -40 0 4 100 10 "Default Font"
+REF-DES
+-500 -190 0 6 100 10 "Default Font"
+PART-TYPE
+-500 -300 0 6 100 10 "Default Font"
+*
+-500 -400 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-200  0    
+0     0    
+CLOSED 7   10  255
+-200  0    
+-300  -100 
+-700  -100 
+-800  0    
+-700  100  
+-300  100  
+-200  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+RESZ-H           32000 32000 97 10 97 10 4 1 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 "Default Font"
+REF-DES
+310 200 0 4 100 10 "Default Font"
+PART-TYPE
+300 -100 0 6 100 10 "Default Font"
+VALUE
+300 -200 0 6 100 10 "Default Font"
+*
+OPEN   10  10  255
+100   0    
+120   0    
+150   60   
+210   -60  
+270   60   
+330   -60  
+390   60   
+450   -60  
+470   0    
+500   0    
+T0     0     0 0 34 16 0 0 170 -30 0 8 PINSHORT
+P-80 -30 0 1 0 0 0 0 128
+T600   0     0 1 0 20 0 0 170 -30 0 8 PINSHORT
+P-90 -20 0 1 0 0 0 0 128
+
+RESZ-V           32000 32000 97 10 97 10 4 1 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+100 -280 0 0 100 10 "Default Font"
+REF-DES
+100 -180 0 0 100 10 "Default Font"
+PART-TYPE
+100 -320 0 2 100 10 "Default Font"
+VALUE
+100 -420 0 2 100 10 "Default Font"
+*
+OPEN   10  10  255
+0     -500 
+0     -480 
+-60   -450 
+60    -390 
+-60   -330 
+60    -270 
+-60   -210 
+60    -150 
+0     -130 
+0     -100 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P840 80 0 1 0 0 0 0 128
+T0     -600  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P840 40 0 1 0 0 0 0 128
+
+RESB-H           32000 32000 97 10 97 10 4 2 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+300 80 0 4 100 10 "Default Font"
+REF-DES
+300 180 0 4 100 10 "Default Font"
+PART-TYPE
+310 -120 0 12 100 10 "Default Font"
+VALUE
+300 -80 0 6 100 10 "Default Font"
+*
+OPEN   7   10  255
+100   0    
+150   0    
+150   50   
+450   50   
+450   -50  
+150   -50  
+150   0    
+OPEN   2   10  255
+450   0    
+500   0    
+T0     0     0 0 34 16 0 0 170 -30 0 8 PINSHORT
+P-160 0 0 1 0 0 0 0 128
+T600   0     0 1 34 16 0 0 170 -30 0 8 PINSHORT
+P-160 0 0 1 0 0 0 0 128
+
+RESB-V           32000 32000 97 10 97 10 4 2 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+140 -260 0 0 100 10 "Default Font"
+REF-DES
+210 -80 0 2 100 10 "Default Font"
+PART-TYPE
+140 -290 0 2 100 10 "Default Font"
+VALUE
+180 -400 0 2 100 10 "Default Font"
+*
+OPEN   7   10  255
+0     -460 
+0     -410 
+-50   -410 
+-50   -110 
+50    -110 
+50    -410 
+0     -410 
+OPEN   2   10  255
+0     -110 
+0     -60  
+T0     0     90 2 90 -30 90 2 170 -30 0 8 PINSHORT
+P-10 -190 90 2 0 0 0 0 128
+T0     -500  90 0 80 -30 90 2 170 -30 0 8 PINSHORT
+P-10 -160 90 2 0 0 0 0 128
+
+CAP              32000 32000 97 10 97 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 "Default Font"
+REF-DES
+210 -40 0 2 97 10 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 "Default Font"
+VALUE
+150 -340 0 2 97 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300 
+100   -300 
+OPEN   2   10  255
+0     -300 
+0     -500 
+T0     0     0 0 20 -90 0 0 -20 -40 0 9 PINVRTS
+P-110 -140 0 1 -30 14 0 1 0
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-110 -130 0 1 -30 14 0 1 0
+
+CAPA             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+180 -210 0 0 100 10 "Default Font"
+REF-DES
+240 -30 0 2 100 10 "Default Font"
+PART-TYPE
+180 -250 0 2 100 10 "Default Font"
+VALUE
+180 -360 0 2 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300  1333  -866  -140  -550  140   -260 
+100   -300 
+OPEN   2   10  255
+0     -260 
+0     -500 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-76 -112 0 1 0 0 0 0 128
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-72 -136 0 1 0 0 0 0 128
+
+CAPH             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+260 -140 0 6 100 10 "Default Font"
+VALUE
+260 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+100   0    
+200   0    
+OPEN   2   10  255
+300   0    
+400   0    
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100  
+300   -100 
+T0     0     0 0 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -110 0 1 0 0 0 0 128
+T500   0     0 1 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -120 0 1 0 0 0 0 128
+
+CAPAH            32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+250 -150 0 6 100 10 "Default Font"
+VALUE
+250 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100   1272  1056  250   -120  500   120  
+300   -100 
+OPEN   2   10  255
+200   0    
+100   0    
+OPEN   2   10  255
+250   0    
+400   0    
+T0     0     0 0 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+T500   0     0 1 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+
+SW_TACK          33500 33500 97 10 97 10 4 7 0 4 0 0
+TIMESTAMP 2018.07.10.03.37.35
+"Default Font"
+"Default Font"
+390 100 0 4 97 10 "Default Font"
+REF-DES
+500 -120 0 6 97 10 "Default Font"
+PART-TYPE
+500 -220 0 6 97 10 "Default Font"
+*
+500 -320 0 6 97 10 "Default Font"
+*
+OPEN   3   10  255
+90    0    
+190   0    
+240   50   
+OPEN   2   10  255
+240   0    
+340   0    
+OPEN   3   10  255
+190   -50  
+190   -100 
+90    -100 
+OPEN   3   10  255
+240   -50  
+240   -100 
+340   -100 
+OPEN   2   10  255
+220   30   
+220   20   
+OPEN   2   10  255
+220   10   
+220   0    
+OPEN   2   10  255
+190   -100 
+240   -100 
+T-10   0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-10   -100  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T440   -100  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T430   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+CRY21            32000 32000 97 10 97 10 4 5 0 2 0 0
+TIMESTAMP 2018.07.10.04.08.44
+"Default Font"
+"Default Font"
+450 150 0 4 97 10 "Default Font"
+REF-DES
+550 -50 0 6 97 10 "Default Font"
+PART-TYPE
+550 -150 0 6 97 10 "Default Font"
+*
+550 -250 0 6 97 10 "Default Font"
+*
+OPEN   5   10  255
+200   50   
+200   -50  
+250   -50  
+250   50   
+200   50   
+OPEN   2   10  255
+150   50   
+150   -50  
+OPEN   2   10  255
+300   50   
+300   -50  
+OPEN   2   10  255
+300   0    
+350   0    
+OPEN   2   10  255
+100   0    
+150   0    
+T0     0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T450   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+
+*PARTTYPE*   ITEMS
+
+$OSR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+OFF 2
+REFIN S 
+REFOUT L 
+
+$GND_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+GND 3
+GND G GND
+AGND G AGND
+CHGND G CHGND
+
+$PWR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+PWR 7
++5V P +5V
+BUBBLE P +5V
+Y P +5V
++12V P +12V
+-5V P -5V
+-12V P -12V
++5VA P +5VA
+
+RES-1/4W RES  1   0   0     0
+TIMESTAMP 2018.07.18.06.02.41
+GATE 4 2 1
+RESZ-H
+RESZ-V
+RESB-H
+RESB-V
+1 1 U
+2 1 U
+
+CAP-CC05 CAP  1   0   0     0
+TIMESTAMP 2018.07.18.06.01.34
+GATE 4 2 0
+CAP
+CAPA
+CAPH
+CAPAH
+1 1 U
+2 1 U
+
+SW_TACK SWI  1   0   0     0
+TIMESTAMP 2018.07.10.03.37.35
+GATE 1 4 0
+SW_TACK
+1 0 U
+3 0 U
+4 0 U
+2 0 U
+
+HEADER022 CON  0   0   1     0
+TIMESTAMP 2018.07.15.09.58.03
+CONN 5 2
+CONIN S
+CONOUT L
+CONIN1 S
+CONOUT1 L
+CON_IO Z
+1 0 U
+2 0 U
+
+CRY21 UND  1   0   0     0
+TIMESTAMP 2018.07.10.04.08.44
+GATE 1 2 0
+CRY21
+1 0 U
+2 0 U
+
+
+
+*PART*       ITEMS
+
+
+
+J1-1         HEADER022        3900  8500    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+J1-2         HEADER022        3900  7900    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+R1           RES-1/4W         3600  7100   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+J2-1         HEADER022        7900  8800    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+J2-2         HEADER022        7900  8200    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+R2           RES-1/4W         7600  7400   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+C1           CAP-CC05         2700  5200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+R3           RES-1/4W         3400  5300    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 0E
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R4           RES-1/4W         3500  4600    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 0E
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+C2           CAP-CC05         6300  5200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+R5           RES-1/4W         7000  5300    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 0E
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R6           RES-1/4W         7100  4600    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 0E
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+C3           CAP-CC05         13500 6500   90 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 22pf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C4           CAP-CC05         13400 5300   90 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 22pf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C5           CAP-CC05         3200  2300    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+R7           RES-1/4W         3200  2700   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+S3           SW_TACK          4700  2200   90 0 97 10 97 10 4 1 4 0 0 0
+"Default Font"
+"Default Font"
+390 100 0 4 97 10 0 "Default Font"
+REF-DES
+500 -120 0 6 97 10 0 "Default Font"
+PART-TYPE
+500 -220 0 6 97 10 0 "Default Font"
+*
+500 -320 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" PUSHBUTTON_STAND
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+
+Q1           CRY21            12900 5600   90 0 97 10 97 10 4 1 2 0 0 0
+"Default Font"
+"Default Font"
+450 150 0 4 97 10 0 "Default Font"
+REF-DES
+550 -50 0 6 97 10 0 "Default Font"
+PART-TYPE
+550 -150 0 6 97 10 0 "Default Font"
+*
+550 -250 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" XTAL_ECS65512513X
+0 60 10 0 1
+1 60 10 0 1
+
+
+*BUSSES*
+
+
+*OFFPAGE REFS*
+
+
+
+@@@O0    +3.3V $PWR_SYMS 3700   9200   0 0 0
+@@@O1    FOR_ENV_TEMP_SENS_6 $OSR_SYMS 3000   7900   0 0 0
+@@@O2    GND $GND_SYMS 3600   6900   0 0 0
+@@@O3    +3.3V $PWR_SYMS 7700   9500   0 0 0
+@@@O4    FOR_TEMP_SENS_7 $OSR_SYMS 7000   8200   0 0 0
+@@@O5    GND $GND_SYMS 7600   7200   0 0 0
+@@@O6    +3.3V $PWR_SYMS 4400   5900   0 0 0
+@@@O7    GND $GND_SYMS 4500   4400   0 0 0
+@@@O8    VDDA_10 $OSR_SYMS 2000   5300   0 0 0
+@@@O9    VSSA_11 $OSR_SYMS 2000   4600   0 0 0
+@@@O10   +3.3V $PWR_SYMS 8000   5900   0 0 0
+@@@O11   GND $GND_SYMS 8100   4400   0 0 0
+@@@O12   VREF+_12 $OSR_SYMS 5600   5300   0 0 0
+@@@O13   VREF-_15 $OSR_SYMS 5600   4600   0 0 0
+@@@O14   GND $GND_SYMS 14600  5700   0 0 0
+@@@O15   RTCK_1_16 $OSR_SYMS 12400  6500   0 0 0
+@@@O16   RTCK_0_18 $OSR_SYMS 12200  5300   0 0 0
+@@@O17   GND $GND_SYMS 4000   1800   0 0 0
+@@@O18   RESET_17 $OSR_SYMS 2800   2500   0 0 0
+@@@O19   +3.3V $PWR_SYMS 3200   3500   0 0 0
+
+*TIEDOTS*
+
+
+
+@@@D0    3600   7900  
+@@@D1    7600   8200  
+@@@D2    2700   5300  
+@@@D3    2700   4600  
+@@@D4    6300   5300  
+@@@D5    6300   4600  
+@@@D6    14300  5800  
+@@@D7    12900  6500  
+@@@D8    12900  5300  
+@@@D9    3200   2500  
+@@@D10   4000   2000  
+@@@D11   3200   2500  
+@@@D12   4700   2000  
+@@@D13   4800   2000  
+
+*CONNECTION*
+
+
+*SIGNAL* FOR_ENV_TEMP_SENS_6 0 0
+J1.2         @@@D0        2 0
+3900   7900  
+3600   7900  
+R1.2         @@@D0        2 0
+3600   7700  
+3600   7900  
+@@@D0        @@@O1        2 0
+3600   7900  
+3000   7900  
+
+*SIGNAL* FOR_TEMP_SENS_7 0 0
+J2.2         @@@D1        2 0
+7900   8200  
+7600   8200  
+R2.2         @@@D1        2 0
+7600   8000  
+7600   8200  
+@@@D1        @@@O4        2 0
+7600   8200  
+7000   8200  
+
+*SIGNAL* VDDA_10 0 0
+C1.1         @@@D2        2 0
+2700   5200  
+2700   5300  
+@@@D2        R3.1         2 0
+2700   5300  
+3400   5300  
+@@@D2        @@@O8        2 0
+2700   5300  
+2000   5300  
+
+*SIGNAL* VSSA_11 0 0
+C1.2         @@@D3        2 0
+2700   4700  
+2700   4600  
+@@@D3        R4.1         2 0
+2700   4600  
+3500   4600  
+@@@D3        @@@O9        2 0
+2700   4600  
+2000   4600  
+
+*SIGNAL* VREF-_15 0 0
+C2.2         @@@D5        2 0
+6300   4700  
+6300   4600  
+@@@D5        R6.1         2 0
+6300   4600  
+7100   4600  
+@@@D5        @@@O13       2 0
+6300   4600  
+5600   4600  
+
+*SIGNAL* RTCK_1_16 0 0
+@@@D7        Q1.2         2 0
+12900  6500  
+12900  6050  
+@@@D7        C3.1         2 0
+12900  6500  
+13500  6500  
+@@@D7        @@@O15       2 0
+12900  6500  
+12400  6500  
+
+*SIGNAL* RTCK_0_18 0 0
+@@@D8        Q1.1         2 0
+12900  5300  
+12900  5600  
+@@@D8        C4.1         2 0
+12900  5300  
+13400  5300  
+@@@D8        @@@O16       2 0
+12900  5300  
+12200  5300  
+
+*SIGNAL* RESET_17 0 0
+R7.1         @@@D9        2 0
+3200   2700  
+3200   2500  
+@@@D9        C5.1         2 0
+3200   2500  
+3200   2300  
+@@@D9        @@@D11       2 0
+3200   2500  
+3200   2500  
+S3.2         @@@D11       5 0
+4700   2630  
+4700   2800  
+3600   2800  
+3600   2500  
+3200   2500  
+@@@D11       @@@O18       2 0
+3200   2500  
+2800   2500  
+
+*SIGNAL* +3.3V 0 0
+J1.1         @@@O0        3 0
+3900   8500  
+3700   8500  
+3700   9200  
+J2.1         @@@O3        3 0
+7900   8800  
+7700   8800  
+7700   9500  
+R3.2         @@@O6        3 0
+4000   5300  
+4400   5300  
+4400   5900  
+R5.2         @@@O10       3 0
+7600   5300  
+8000   5300  
+8000   5900  
+R7.2         @@@O19       2 0
+3200   3300  
+3200   3500  
+
+*SIGNAL* GND 0 0
+R1.1         @@@O2        2 0
+3600   7100  
+3600   6900  
+R2.1         @@@O5        2 0
+7600   7400  
+7600   7200  
+R4.2         @@@O7        3 0
+4100   4600  
+4500   4600  
+4500   4400  
+R6.2         @@@O11       3 0
+7700   4600  
+8100   4600  
+8100   4400  
+C3.2         @@@D6        3 0
+14000  6500  
+14300  6500  
+14300  5800  
+@@@D6        C4.2         3 0
+14300  5800  
+14300  5300  
+13900  5300  
+@@@D6        @@@O14       3 0
+14300  5800  
+14600  5800  
+14600  5700  
+@@@D10       @@@D12       2 0
+4000   2000  
+4700   2000  
+C5.2         @@@D10       4 0
+3200   1800  
+3700   1800  
+3700   2000  
+4000   2000  
+@@@D10       @@@O17       2 0
+4000   2000  
+4000   1800  
+S3.3         @@@D13       2 0
+4800   2190  
+4800   2000  
+@@@D12       S3.1         2 0
+4700   2000  
+4700   2190  
+S3.4         @@@D13       5 0
+4800   2640  
+4800   2700  
+5100   2700  
+5100   2000  
+4800   2000  
+@@@D13       @@@D12       2 0
+4800   2000  
+4700   2000  
+
+*SIGNAL* VREF+_12 0 0
+C2.1         @@@D4        2 0
+6300   5200  
+6300   5300  
+@@@D4        R5.1         2 0
+6300   5300  
+7000   5300  
+@@@D4        @@@O12       2 0
+6300   5300  
+5600   5300  
+
+*NETNAMES*
+
+
+
+FOR_ENV_TEMP_SENS_6 @@@O1        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+GND          @@@O2        100    -50    0 0 0      0      0 0 -1 10 97 "Default Font"
++3.3V        @@@O0        0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+FOR_TEMP_SENS_7 @@@O4        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+GND          @@@O5        100    -50    0 0 0      0      0 0 -1 10 97 "Default Font"
++3.3V        @@@O3        0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+VDDA_10      @@@O8        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+VSSA_11      @@@O9        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
++3.3V        @@@O6        0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+VREF+_12     @@@O12       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+VREF-_15     @@@O13       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
++3.3V        @@@O10       0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+RTCK_1_16    @@@O15       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+RTCK_0_18    @@@O16       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+RESET_17     @@@O18       -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
++3.3V        @@@O19       0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+
+*SHT*   3 SHEET3 -1 $$$NONE
+*CAE*        GENERAL PARAMETERS FOR THE SHEET"
+
+SCALE        6.705          Scale of window expansion
+WINDOWCENTER 4240   2557    Point defining the center of the window
+BITCS0       0              system status bits
+BITCS1       0              system status bits
+BITCS2       0              system status bits
+
+*TEXT*       FREE TEXT
+
+4000   9000   0   0 194  10 0 "Default Font"
+XTAL
+7700   9000   0   0 194  10 0 "Default Font"
+FOR_FSR_20
+11800  7100   0   0 194  10 0 "Default Font"
+ESP
+3400   4300   0   0 194  10 0 "Default Font"
+USB
+
+*LINES*      LINES ITEMS
+
+SIZEB            LINES    16000  1700   34  52
+OPEN   2   10  255
+0      0     
+-5010  0     
+OPEN   2   10  255
+-500   0     
+-500   -950  
+OPEN   2   10  255
+-1800  -950  
+-1800  -1200 
+OPEN   2   10  255
+-3100  0     
+-3100  -950  
+OPEN   2   10  255
+-3800  0     
+-3800  -950  
+OPEN   2   10  255
+0      -950  
+-5000  -950  
+OPEN   2   10  255
+-5000  1290  
+-5000  -1200 
+OPEN   2   10  255
+0      800   
+-5000  800   
+OPEN   2   10  255
+-5000  -400  
+-7500  -400  
+CLOSED 7   10  255
+0      -1200 
+0      1290  
+-5000  1290  
+-5000  400   
+-7500  400   
+-7500  -1200 
+0      -1200 
+OPEN   2   10  255
+-5010  0     
+-7500  0     
+OPEN   2   10  255
+-5000  -800  
+-7500  -800  
+OPEN   2   10  255
+-6000  400   
+-6000  -1200 
+OPEN   2   10  255
+502    1150  
+2      1150  
+OPEN   2   10  255
+500    3550  
+0      3550  
+OPEN   2   10  255
+500    5900  
+0      5900  
+OPEN   2   10  255
+-2864  8100  
+-2864  7100  
+OPEN   2   10  255
+-464   8100  
+-464   7100  
+OPEN   2   10  255
+-1364  8100  
+-1364  7100  
+OPEN   2   10  255
+-2800  8800  
+-2800  8300  
+OPEN   2   10  255
+-5300  8800  
+-5300  8300  
+OPEN   2   10  255
+-7800  8800  
+-7800  8300  
+OPEN   2   10  255
+-10300 8800  
+-10300 8300  
+OPEN   2   10  255
+-12800 8800  
+-12800 8300  
+OPEN   2   10  255
+-15000 5900  
+-15500 5900  
+OPEN   2   10  255
+-15000 1150  
+-15500 1150  
+OPEN   2   10  255
+-15000 3550  
+-15500 3550  
+OPEN   5   10  255
+0      -1200 
+0      8300  
+-15000 8300  
+-15000 -1200 
+0      -1200 
+OPEN   2   10  255
+-3450  8100  
+0      8100  
+OPEN   2   10  255
+-3450  7900  
+0      7900  
+OPEN   2   10  255
+-3450  7500  
+0      7500  
+OPEN   2   10  255
+-3450  7300  
+0      7300  
+CLOSED 5   10  255
+0      8300  
+-3450  8300  
+-3450  7100  
+0      7100  
+0      8300  
+OPEN   2   10  255
+-3450  7700  
+0      7700  
+-6300  150    0   9 153  10 1 "Default Font"
+Drawn By
+-6300  -250   0   9 153  10 1 "Default Font"
+Checked By
+-6300  -650   0   9 153  10 1 "Default Font"
+QC By
+-6300  -1050  0   9 153  10 1 "Default Font"
+Released By
+-6000  150    0   8 153  10 1 "Default Font"
+Drawn Date
+-6000  -250   0   8 153  10 1 "Default Font"
+Checked Date
+-6000  -650   0   8 153  10 1 "Default Font"
+QC Date
+-6000  -1050  0   8 153  10 1 "Default Font"
+Release Date
+-2500  1050   0   12 250  10 1 "Default Font"
+Company Name
+-2300  400    0   12 250  10 1 "Default Font"
+Title
+-4400  -600   0   12 306  10 1 "Default Font"
+Code
+-3450  -600   0   12 306  10 1 "Default Font"
+Sheet Size
+-2000  -600   0   12 306  10 1 "Default Font"
+Drawing Number
+-300   -600   0   12 306  10 1 "Default Font"
+Revision
+-4550  -1050  0   8 153  10 1 "Default Font"
+Scale
+-1350  -1050  0   8 153  10 1 "Default Font"
+Sheet Number
+-900   -1050  0   8 153  10 1 "Default Font"
+Number of Sheets
+-400   -200   0   0 97   10 0 "Default Font"
+REV:
+-3600  -200   0   0 97   10 0 "Default Font"
+SIZE:
+-4550  -200   0   0 97   10 0 "Default Font"
+CODE:
+-7460  250    0   0 97   10 0 "Default Font"
+DRAWN:
+-5960  250    0   0 97   10 0 "Default Font"
+DATED:
+-5960  -150   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -150   0   0 97   10 0 "Default Font"
+CHECKED:
+-7460  -550   0   0 97   10 0 "Default Font"
+QUALITY CONTROL:
+-5960  -550   0   0 97   10 0 "Default Font"
+DATED:
+-5960  -950   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -950   0   0 97   10 0 "Default Font"
+RELEASED:
+-4960  1100   0   0 97   10 0 "Default Font"
+COMPANY:
+-4960  600    0   0 97   10 0 "Default Font"
+TITLE:
+-2150  -200   0   0 97   10 0 "Default Font"
+DRAWING NO:
+-1750  -1100  0   0 97   10 0 "Default Font"
+SHEET:     OF
+-4950  -1100  0   0 97   10 0 "Default Font"
+SCALE:
+-2200  8150   0   0 97   10 0 "Default Font"
+REVISION RECORD
+-1200  7950   0   0 97   10 0 "Default Font"
+APPROVED:
+-2350  7950   0   0 97   10 0 "Default Font"
+ECO NO:
+100    -50    0   0 250  25 0 "Default Font"
+A
+100    2350   0   0 250  25 0 "Default Font"
+B
+100    7100   0   0 250  25 0 "Default Font"
+D
+-414   7950   0   0 97   10 0 "Default Font"
+DATE:
+-1550  8400   0   0 250  25 0 "Default Font"
+1
+-4050  8400   0   0 250  25 0 "Default Font"
+2
+-6550  8400   0   0 250  25 0 "Default Font"
+3
+-9050  8400   0   0 250  25 0 "Default Font"
+4
+-11550 8400   0   0 250  25 0 "Default Font"
+5
+-13900 8400   0   0 250  25 0 "Default Font"
+6
+-15250 7100   0   0 250  25 0 "Default Font"
+D
+-15250 4700   0   0 250  25 0 "Default Font"
+C
+-15250 -50    0   0 250  25 0 "Default Font"
+A
+-15250 2350   0   0 250  25 0 "Default Font"
+B
+100    4700   0   0 250  25 0 "Default Font"
+C
+-3250  7950   0   0 97   10 0 "Default Font"
+LTR
+D32351           LINES    7600   8900   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1300 
+1500   -1300 
+1500   0     
+0      0     
+D32352           LINES    10100  7000   1   0
+CLOSED 5   30  0  
+0      0     
+0      -900  
+3500   -900  
+3500   0     
+0      0     
+D32353           LINES    2200   4100   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1500 
+3100   -1500 
+3100   0     
+0      0     
+
+*CAEDECAL*  ITEMS
+
+PIN              34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+140 20 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-520 0 0 1 100 10 "Default Font"
+*
+-80 0 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+
+PINB             34000 34000 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+140   0    
+190   0    
+
+PCLK             33500 33180 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+
+PCLKB            33500 33180 100 10 100 10 4 3 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+190   0    
+140   0    
+
+PINIEB           34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+220 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   4   10  255
+0     0    
+200   0    
+140   30   
+140   0    
+
+PINORB           34000 34000 100 10 100 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+300 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+180   0    
+CIRCLE 2   10  255
+230   0    
+180   0    
+
+PINSHORT         34000 34000 100 10 100 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+60 10 0 1 100 10 "Default Font"
+REF-DES
+140 10 0 8 100 10 "Default Font"
+PART-TYPE
+-530 10 0 1 100 10 "Default Font"
+*
+-70 10 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+100   0    
+
+PINVRTS          34000 34000 100 10 100 10 4 1 0 0 3 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+20 -80 0 0 100 10 "Default Font"
+REF-DES
+-20 -40 0 9 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -100 
+0     0    
+
+REFIN            33500 33180 100 10 100 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+-360 0 0 1 100 10 "Default Font"
+REF-DES
+-360 -20 0 3 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   7   5   255
+0     0    
+-100  0    
+-150  -50  
+-300  -50  
+-300  50   
+-150  50   
+-100  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+REFOUT           33500 33180 100 10 100 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+350 10 0 0 100 10 "Default Font"
+REF-DES
+350 -10 0 2 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   8   5   255
+0     0    
+100   0    
+100   50   
+250   50   
+300   0    
+250   -50  
+100   -50  
+100   0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+GND              33500 33180 100 10 100 10 4 4 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+100 -50 0 0 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-60   -160 
+60    -160 
+OPEN   2   5   255
+-20   -220 
+20    -220 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+AGND             33500 33180 100 10 100 10 4 1 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+260 0 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   6   5   255
+0     0    
+0     -50  
+-100  -50  
+0     -200 
+100   -50  
+0     -50  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CHGND            33500 33180 100 10 100 10 4 5 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+264 -40 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-100  -100 
+-150  -200 
+OPEN   2   5   255
+0     -100 
+-50   -200 
+OPEN   2   5   255
+100   -100 
+50    -200 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5V              33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 250 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     200  
+COPCLS 4   5   255
+0     200  
+-50   100  
+50    100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+BUBBLE           33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     100  
+CIRCLE 2   10  255
+0     100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+Y                33500 33180 100 10 100 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   3   10  255
+0     0    
+0     100  
+-100  200  
+OPEN   2   10  255
+0     100  
+100   200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++12V             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+4 484 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     300  
+COPCLS 4   5   255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   356    0   0 97  10
++12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-5V              33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+16 -520 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-80    -388   0   0 97  10
+-5V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-12V             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 -560 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-116   -412   0   0 97  10
+-12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5VA             33500 33274 100 10 100 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 468 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     300  
+COPCLS 4   10  255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   336    0   0 97  10
++5VA
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CAP              32000 32000 97 10 97 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 "Default Font"
+REF-DES
+210 -40 0 2 97 10 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 "Default Font"
+VALUE
+150 -340 0 2 97 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300 
+100   -300 
+OPEN   2   10  255
+0     -300 
+0     -500 
+T0     0     0 0 20 -90 0 0 -20 -40 0 9 PINVRTS
+P-110 -140 0 1 -30 14 0 1 0
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-110 -130 0 1 -30 14 0 1 0
+
+CAPA             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+180 -210 0 0 100 10 "Default Font"
+REF-DES
+240 -30 0 2 100 10 "Default Font"
+PART-TYPE
+180 -250 0 2 100 10 "Default Font"
+VALUE
+180 -360 0 2 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300  1333  -866  -140  -550  140   -260 
+100   -300 
+OPEN   2   10  255
+0     -260 
+0     -500 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-76 -112 0 1 0 0 0 0 128
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-72 -136 0 1 0 0 0 0 128
+
+CAPH             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+260 -140 0 6 100 10 "Default Font"
+VALUE
+260 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+100   0    
+200   0    
+OPEN   2   10  255
+300   0    
+400   0    
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100  
+300   -100 
+T0     0     0 0 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -110 0 1 0 0 0 0 128
+T500   0     0 1 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -120 0 1 0 0 0 0 128
+
+CAPAH            32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+250 -150 0 6 100 10 "Default Font"
+VALUE
+250 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100   1272  1056  250   -120  500   120  
+300   -100 
+OPEN   2   10  255
+200   0    
+100   0    
+OPEN   2   10  255
+250   0    
+400   0    
+T0     0     0 0 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+T500   0     0 1 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+
+CONIN            32000 32000 97 10 97 10 4 3 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 "Default Font"
+*
+-850 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-600  100  
+-600  -100 
+OPEN   2   10  255
+-200  100  
+-200  -100 
+OPEN   2   10  255
+-200  0    
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+CONOUT           32000 32000 97 10 97 10 4 3 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+400 -30 0 4 100 10 "Default Font"
+REF-DES
+780 -110 0 6 100 10 "Default Font"
+PART-TYPE
+840 80 0 6 100 10 "Default Font"
+*
+840 -20 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+600   100  
+600   -100 
+OPEN   2   10  255
+200   0    
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+CONIN1           32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-540 -30 0 4 100 10 "Default Font"
+REF-DES
+-540 -200 0 6 100 10 "Default Font"
+PART-TYPE
+-530 -300 0 6 100 10 "Default Font"
+*
+-530 -400 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-200  0    
+0     0    
+CLOSED 5   10  255
+-300  100   900   -1800 -400  -100  -200  100  
+-300  -100 
+-800  -100  2700  -1800 -900  -100  -700  100  
+-800  100  
+-300  100  
+T0     0     0 0 90 -30 0 0 0 0 0 8 
+P10 200 0 0 0 0 0 0 192
+
+CONOUT1          32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+550 -30 0 4 100 10 "Default Font"
+REF-DES
+550 -200 0 6 100 10 "Default Font"
+PART-TYPE
+550 -310 0 6 100 10 "Default Font"
+*
+550 -420 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   0    
+0     0    
+CLOSED 5   10  255
+300   100   900   1800  200   -100  400   100  
+300   -100 
+800   -100  2700  1800  700   -100  900   100  
+800   100  
+300   100  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P-90 200 0 0 0 0 0 0 192
+
+CON_IO           32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-500 -40 0 4 100 10 "Default Font"
+REF-DES
+-500 -190 0 6 100 10 "Default Font"
+PART-TYPE
+-500 -300 0 6 100 10 "Default Font"
+*
+-500 -400 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-200  0    
+0     0    
+CLOSED 7   10  255
+-200  0    
+-300  -100 
+-700  -100 
+-800  0    
+-700  100  
+-300  100  
+-200  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+RESZ-H           32000 32000 97 10 97 10 4 1 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 "Default Font"
+REF-DES
+310 200 0 4 100 10 "Default Font"
+PART-TYPE
+300 -100 0 6 100 10 "Default Font"
+VALUE
+300 -200 0 6 100 10 "Default Font"
+*
+OPEN   10  10  255
+100   0    
+120   0    
+150   60   
+210   -60  
+270   60   
+330   -60  
+390   60   
+450   -60  
+470   0    
+500   0    
+T0     0     0 0 34 16 0 0 170 -30 0 8 PINSHORT
+P-80 -30 0 1 0 0 0 0 128
+T600   0     0 1 0 20 0 0 170 -30 0 8 PINSHORT
+P-90 -20 0 1 0 0 0 0 128
+
+RESZ-V           32000 32000 97 10 97 10 4 1 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+100 -280 0 0 100 10 "Default Font"
+REF-DES
+100 -180 0 0 100 10 "Default Font"
+PART-TYPE
+100 -320 0 2 100 10 "Default Font"
+VALUE
+100 -420 0 2 100 10 "Default Font"
+*
+OPEN   10  10  255
+0     -500 
+0     -480 
+-60   -450 
+60    -390 
+-60   -330 
+60    -270 
+-60   -210 
+60    -150 
+0     -130 
+0     -100 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P840 80 0 1 0 0 0 0 128
+T0     -600  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P840 40 0 1 0 0 0 0 128
+
+RESB-H           32000 32000 97 10 97 10 4 2 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+300 80 0 4 100 10 "Default Font"
+REF-DES
+300 180 0 4 100 10 "Default Font"
+PART-TYPE
+310 -120 0 12 100 10 "Default Font"
+VALUE
+300 -80 0 6 100 10 "Default Font"
+*
+OPEN   7   10  255
+100   0    
+150   0    
+150   50   
+450   50   
+450   -50  
+150   -50  
+150   0    
+OPEN   2   10  255
+450   0    
+500   0    
+T0     0     0 0 34 16 0 0 170 -30 0 8 PINSHORT
+P-160 0 0 1 0 0 0 0 128
+T600   0     0 1 34 16 0 0 170 -30 0 8 PINSHORT
+P-160 0 0 1 0 0 0 0 128
+
+RESB-V           32000 32000 97 10 97 10 4 2 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+140 -260 0 0 100 10 "Default Font"
+REF-DES
+210 -80 0 2 100 10 "Default Font"
+PART-TYPE
+140 -290 0 2 100 10 "Default Font"
+VALUE
+180 -400 0 2 100 10 "Default Font"
+*
+OPEN   7   10  255
+0     -460 
+0     -410 
+-50   -410 
+-50   -110 
+50    -110 
+50    -410 
+0     -410 
+OPEN   2   10  255
+0     -110 
+0     -60  
+T0     0     90 2 90 -30 90 2 170 -30 0 8 PINSHORT
+P-10 -190 90 2 0 0 0 0 128
+T0     -500  90 0 80 -30 90 2 170 -30 0 8 PINSHORT
+P-10 -160 90 2 0 0 0 0 128
+
+LED              32000 32000 97 10 97 10 4 8 0 2 0 0
+TIMESTAMP 2018.07.18.06.02.15
+"Default Font"
+"Default Font"
+100 200 0 4 100 10 "Default Font"
+REF-DES
+250 -150 0 6 100 10 "Default Font"
+PART-TYPE
+250 -250 0 6 100 10 "Default Font"
+*
+250 -350 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+90    0    
+390   0    
+OPEN   2   10  255
+340   90   
+340   -90  
+COPCLS 4   10  255
+190   0    
+190   -90  
+340   0    
+190   0    
+COPCLS 4   10  255
+190   0    
+190   90   
+340   0    
+190   0    
+OPEN   2   10  255
+250   150  
+350   250  
+COPCLS 5   10  255
+350   250  
+290   230  
+320   190  
+330   180  
+350   250  
+OPEN   2   10  255
+350   150  
+450   250  
+COPCLS 5   10  255
+460   260  
+400   240  
+430   200  
+440   190  
+460   260  
+T500   0     0 1 130 14 0 1 170 -30 0 8 PINSHORT
+P-500 10 0 1 0 0 0 0 128
+T0     0     0 0 130 14 0 1 170 -30 0 8 PINSHORT
+P-500 10 0 1 0 0 0 0 128
+
+LED-V            32000 32000 97 10 97 10 4 8 0 2 0 0
+TIMESTAMP 2018.07.18.06.02.15
+"Default Font"
+"Default Font"
+-300 350 0 4 100 10 "Default Font"
+REF-DES
+350 250 0 6 100 10 "Default Font"
+PART-TYPE
+350 150 0 6 100 10 "Default Font"
+COLOR
+350 50 0 6 100 10 "Default Font"
+PART NUMBER
+OPEN   2   10  255
+0     190  
+0     490  
+COPCLS 4   10  255
+0     290  
+-90   290  
+0     440  
+0     290  
+COPCLS 4   10  255
+0     290  
+90    290  
+0     440  
+0     290  
+OPEN   2   10  255
+90    440  
+-90   440  
+OPEN   2   10  255
+76    376  
+176   476  
+COPCLS 5   10  255
+176   476  
+116   456  
+146   416  
+156   406  
+176   476  
+OPEN   2   10  255
+176   376  
+276   476  
+COPCLS 5   10  255
+286   486  
+226   466  
+256   426  
+266   416  
+286   486  
+T0     600   90 2 100 100 90 2 230 0 0 8 PIN
+P-180 470 90 2 0 0 0 0 128
+T0     100   90 0 90 100 90 2 230 0 0 8 PIN
+P-160 360 90 2 0 0 0 0 128
+
+CRYSTAL22        32000 32000 97 10 97 10 4 5 0 2 0 0
+TIMESTAMP 2018.07.10.04.11.44
+"Default Font"
+"Default Font"
+600 -200 0 4 97 10 "Default Font"
+REF-DES
+600 -250 0 6 97 10 "Default Font"
+PART-TYPE
+600 -350 0 6 97 10 "Default Font"
+*
+600 -450 0 6 97 10 "Default Font"
+*
+OPEN   2   10  255
+200   150  
+200   -150 
+OPEN   2   10  255
+400   150  
+400   -150 
+CLOSED 5   10  255
+260   120  
+260   -140 
+340   -140 
+340   120  
+260   120  
+OPEN   2   10  255
+400   0    
+500   0    
+OPEN   2   10  255
+100   0    
+200   0    
+T0     0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T600   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+TACK_MIC         33500 33500 97 10 97 10 4 7 0 4 0 0
+TIMESTAMP 2018.07.12.05.11.38
+"Default Font"
+"Default Font"
+180 250 0 4 97 10 "Default Font"
+REF-DES
+230 200 0 6 97 10 "Default Font"
+PART-TYPE
+570 -170 0 6 97 10 "Default Font"
+*
+570 -270 0 6 97 10 "Default Font"
+*
+OPEN   4   10  255
+80    0    
+180   0    
+180   -100 
+80    -100 
+OPEN   3   10  255
+330   0    
+330   -100 
+430   -100 
+OPEN   2   10  255
+330   0    
+430   0    
+OPEN   3   10  255
+180   -50  
+230   -50  
+280   0    
+OPEN   2   10  255
+280   -50  
+330   -50  
+OPEN   2   10  255
+270   -10  
+270   -30  
+OPEN   2   10  255
+270   -40  
+270   -60  
+T-10   0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-20   -100  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T510   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T520   -100  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+
+*PARTTYPE*   ITEMS
+
+$OSR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+OFF 2
+REFIN S 
+REFOUT L 
+
+$GND_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+GND 3
+GND G GND
+AGND G AGND
+CHGND G CHGND
+
+$PWR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+PWR 7
++5V P +5V
+BUBBLE P +5V
+Y P +5V
++12V P +12V
+-5V P -5V
+-12V P -12V
++5VA P +5VA
+
+CAP-CC05 CAP  1   0   0     0
+TIMESTAMP 2018.07.18.06.01.34
+GATE 4 2 0
+CAP
+CAPA
+CAPH
+CAPAH
+1 1 U
+2 1 U
+
+RES-1/4W RES  1   0   0     0
+TIMESTAMP 2018.07.18.06.02.41
+GATE 4 2 1
+RESZ-H
+RESZ-V
+RESB-H
+RESB-V
+1 1 U
+2 1 U
+
+LED DIO  1   0   0     2
+TIMESTAMP 2018.07.18.06.02.14
+GATE 2 2 0
+LED
+LED-V
+K 0 U
+A 0 U
+K A 
+
+HEADER08 CON  0   0   1     0
+TIMESTAMP 2018.06.28.19.50.59
+CONN 5 8
+CONIN L
+CONOUT S
+CONIN1 L
+CONOUT1 S
+CON_IO Z
+1 0 U
+2 0 U
+3 0 U
+4 0 U
+5 0 U
+6 0 U
+7 0 U
+8 0 U
+
+HEADER04 CON  0   0   1     0
+TIMESTAMP 1999.03.30.22.52.06
+CONN 5 4
+CONIN L
+CONOUT S
+CONIN1 L
+CONOUT1 S
+CON_IO Z
+1 0 U
+2 0 U
+3 0 U
+4 0 U
+
+HEADER022 CON  0   0   1     0
+TIMESTAMP 2018.07.15.09.58.03
+CONN 5 2
+CONIN S
+CONOUT L
+CONIN1 S
+CONOUT1 L
+CON_IO Z
+1 0 U
+2 0 U
+
+CRYSTAL22 CRY  1   0   0     0
+TIMESTAMP 2018.07.10.04.11.44
+GATE 1 2 0
+CRYSTAL22
+1 0 U
+2 0 U
+
+TACK_MIC SWI  1   0   0     0
+TIMESTAMP 2018.07.12.05.11.43
+GATE 1 4 0
+TACK_MIC
+1 0 U
+2 0 U
+3 0 U
+4 0 U
+
+
+
+*PART*       ITEMS
+
+
+
+Q2           CRYSTAL22        3900  8100   90 3 97 10 97 10 4 1 2 0 0 0
+"Default Font"
+"Default Font"
+600 -200 0 4 97 10 0 "Default Font"
+REF-DES
+600 -250 0 6 97 10 0 "Default Font"
+PART-TYPE
+600 -350 0 6 97 10 0 "Default Font"
+*
+600 -450 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" XTAL1140X480X320L
+0 60 10 0 1
+1 60 10 0 1
+
+C6           CAP-CC05         4500  8500   90 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 22pf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+C7           CAP-CC05         4400  7300   90 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 22pf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+J3-1         HEADER022        7600  8500    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+J3-2         HEADER022        7600  7900    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+R8           RES-1/4W         7300  7100   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R9           RES-1/4W         2800  6100    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 330E
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R10          RES-1/4W         2800  5000    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 330E
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+D1           LED              3900  6100    0 0 97 10 97 10 4 8 2 0 0 0
+"Default Font"
+"Default Font"
+100 200 0 4 100 10 0 "Default Font"
+REF-DES
+250 -150 0 6 100 10 0 "Default Font"
+PART-TYPE
+250 -250 0 6 100 10 0 "Default Font"
+*
+250 -350 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" D
+"Description" LIGHT EMITTING DIODE
+"Color" ???
+"Part Number" 
+"Manufacturer #1" 
+"PCB DECAL" 0603
+0 130 14 0 1
+1 130 14 0 1
+
+D2           LED              4000  5000    0 0 97 10 97 10 4 8 2 0 0 0
+"Default Font"
+"Default Font"
+100 200 0 4 100 10 0 "Default Font"
+REF-DES
+250 -150 0 6 100 10 0 "Default Font"
+PART-TYPE
+250 -250 0 6 100 10 0 "Default Font"
+*
+250 -350 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" D
+"Description" LIGHT EMITTING DIODE
+"Color" ???
+"Part Number" 
+"Manufacturer #1" 
+"PCB DECAL" 0603
+0 130 14 0 1
+1 130 14 0 1
+
+J4-1         HEADER08         10800 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-2         HEADER08         11100 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-3         HEADER08         11400 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-4         HEADER08         11700 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-5         HEADER08         12000 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-6         HEADER08         12300 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-7         HEADER08         12600 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+J4-8         HEADER08         12900 6100   90 2 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" EIGHT PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-8P_USER
+0 0 0 0 0
+
+R11          RES-1/4W         11700 5200   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R12          RES-1/4W         12300 4900   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+J5-1         HEADER04         3000  3000   90 3 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" FOUR PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-4P
+0 0 0 0 0
+
+J5-2         HEADER04         3400  3000   90 3 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" FOUR PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-4P
+0 0 0 0 0
+
+J5-3         HEADER04         3900  3000   90 3 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" FOUR PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-4P
+0 0 0 0 0
+
+J5-4         HEADER04         4300  3000   90 3 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 97 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 97 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 97 10 0 "Default Font"
+*
+-850 0 0 6 97 10 0 "Default Font"
+*
+"Description" FOUR PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" SIP-4P
+0 0 0 0 0
+
+C15          CAP-CC05         7400  4000    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 100nf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+R13          RES-1/4W         7400  4400   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 10k
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+S1           TACK_MIC         13000 4600   90 1 97 10 97 10 4 1 4 0 0 0
+"Default Font"
+"Default Font"
+180 250 0 4 97 10 0 "Default Font"
+REF-DES
+230 200 0 6 97 10 0 "Default Font"
+PART-TYPE
+570 -170 0 6 97 10 0 "Default Font"
+*
+570 -270 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" TACK_MIC
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+
+S2           TACK_MIC         7000  3400   90 0 97 10 97 10 4 1 4 0 0 0
+"Default Font"
+"Default Font"
+180 250 0 4 97 10 0 "Default Font"
+REF-DES
+230 200 0 6 97 10 0 "Default Font"
+PART-TYPE
+570 -170 0 6 97 10 0 "Default Font"
+*
+570 -270 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" TACK_MIC
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+
+
+*BUSSES*
+
+
+*OFFPAGE REFS*
+
+
+
+@@@O0    GND $GND_SYMS 5600   7700   0 0 0
+@@@O1    XTAL_1_22 $OSR_SYMS 3400   8500   0 0 0
+@@@O2    XTAL_0_23 $OSR_SYMS 3200   7300   0 0 0
+@@@O3    +3.3V $PWR_SYMS 7400   9200   0 0 0
+@@@O4    FOR_FSR_20 $OSR_SYMS 6700   7900   0 0 0
+@@@O5    GND $GND_SYMS 7300   6900   0 0 0
+@@@O6    USB_UP_LED_32 $OSR_SYMS 2400   6100   0 0 0
+@@@O7    TEST_LED_45 $OSR_SYMS 2400   5000   0 0 0
+@@@O8    GND $GND_SYMS 4900   5900   0 0 0
+@@@O9    GND $GND_SYMS 4900   4900   0 0 0
+@@@O10   GND $GND_SYMS 10800  4700   0 0 0
+@@@O11   UART_RX0_99 $OSR_SYMS 11100  5300   90 1 0
+@@@O12   +3.3V $PWR_SYMS 11700  4600   0 3 0
+@@@O13   +3.3V $PWR_SYMS 12300  4600   0 2 0
+@@@O14   UART_TX0_98 $OSR_SYMS 12600  6100   90 0 0
+@@@O15   +3.3V $PWR_SYMS 12900  5700   0 2 0
+@@@O16   +3.3V $PWR_SYMS 3000   1900   0 2 0
+@@@O17   UART_TX0_98 $OSR_SYMS 3400   2100   90 0 0
+@@@O18   UART_RX0_99 $OSR_SYMS 3900   2100   90 0 0
+@@@O19   GND $GND_SYMS 4300   1900   0 0 0
+@@@O20   GND $GND_SYMS 7400   2700   0 0 0
+@@@O21   +3.3V $PWR_SYMS 7400   5200   0 0 0
+@@@O22   RESET_53 $OSR_SYMS 8300   4200   0 3 0
+@@@O23   GND $GND_SYMS 12900  4200   0 0 0
+
+*TIEDOTS*
+
+
+
+@@@D0    5300   7800  
+@@@D1    3900   8500  
+@@@D2    3900   7300  
+@@@D3    7300   7900  
+@@@D4    7400   4200  
+@@@D5    12300  5700  
+@@@D6    12900  5300  
+@@@D7    12900  4300  
+@@@D8    7400   4200  
+@@@D9    7100   4200  
+@@@D10   7400   3000  
+@@@D11   7100   3000  
+
+*CONNECTION*
+
+
+*SIGNAL* XTAL_1_22 0 0
+Q2.1         @@@D1        2 0
+3900   8100  
+3900   8500  
+@@@D1        C6.1         2 0
+3900   8500  
+4500   8500  
+@@@D1        @@@O1        2 0
+3900   8500  
+3400   8500  
+
+*SIGNAL* XTAL_0_23 0 0
+Q2.2         @@@D2        2 0
+3900   7500  
+3900   7300  
+@@@D2        C7.1         2 0
+3900   7300  
+4400   7300  
+@@@D2        @@@O2        2 0
+3900   7300  
+3200   7300  
+
+*SIGNAL* FOR_FSR_20 0 0
+J3.2         @@@D3        2 0
+7600   7900  
+7300   7900  
+R8.2         @@@D3        2 0
+7300   7700  
+7300   7900  
+@@@D3        @@@O4        2 0
+7300   7900  
+6700   7900  
+
+*SIGNAL* USB_UP_LED_32 0 0
+R9.1         @@@O6        2 0
+2800   6100  
+2400   6100  
+
+*SIGNAL* TEST_LED_45 0 0
+R10.1        @@@O7        2 0
+2800   5000  
+2400   5000  
+
+*SIGNAL* +3.3V 0 0
+J3.1         @@@O3        3 0
+7600   8500  
+7400   8500  
+7400   9200  
+R11.1        @@@O12       2 0
+11700  5200  
+11700  4600  
+R12.1        @@@O13       2 0
+12300  4900  
+12300  4600  
+J4.8         @@@O15       2 0
+12900  6100  
+12900  5700  
+J5.1         @@@O16       2 0
+3000   3000  
+3000   1900  
+R13.2        @@@O21       2 0
+7400   5000  
+7400   5200  
+
+*SIGNAL* GND 0 0
+C6.2         @@@D0        3 0
+5000   8500  
+5300   8500  
+5300   7800  
+@@@D0        C7.2         3 0
+5300   7800  
+5300   7300  
+4900   7300  
+@@@D0        @@@O0        3 0
+5300   7800  
+5600   7800  
+5600   7700  
+R8.1         @@@O5        2 0
+7300   7100  
+7300   6900  
+D1.K         @@@O8        3 0
+4400   6100  
+4900   6100  
+4900   5900  
+D2.K         @@@O9        3 0
+4500   5000  
+4900   5000  
+4900   4900  
+J4.1         @@@O10       2 0
+10800  6100  
+10800  4700  
+J5.4         @@@O19       2 0
+4300   3000  
+4300   1900  
+C15.2        @@@D10       2 0
+7400   3500  
+7400   3000  
+S1.2         @@@D7        2 0
+12900  4580  
+12900  4300  
+@@@D7        S1.1         3 0
+12900  4300  
+13000  4300  
+13000  4590  
+@@@D7        @@@O23       2 0
+12900  4300  
+12900  4200  
+S2.1         @@@D11       3 0
+7000   3390  
+7000   3000  
+7100   3000  
+@@@D10       @@@O20       2 0
+7400   3000  
+7400   2700  
+S2.2         @@@D11       2 0
+7100   3380  
+7100   3000  
+@@@D11       @@@D10       2 0
+7100   3000  
+7400   3000  
+
+*SIGNAL* UART_RX0_99 0 0
+J4.2         @@@O11       2 0
+11100  6100  
+11100  5300  
+J5.3         @@@O18       2 0
+3900   3000  
+3900   2100  
+
+*SIGNAL* UART_TX0_98 0 0
+J4.7         @@@O14       2 0
+12600  6100  
+12600  6100  
+J5.2         @@@O17       2 0
+3400   3000  
+3400   2100  
+
+*SIGNAL* RESET_53 0 0
+R13.1        @@@D4        2 0
+7400   4400  
+7400   4200  
+C15.1        @@@D4        2 0
+7400   4000  
+7400   4200  
+@@@D4        @@@D8        2 0
+7400   4200  
+7400   4200  
+S2.4         @@@D9        2 0
+7100   3920  
+7100   4200  
+@@@D8        @@@O22       2 0
+7400   4200  
+8300   4200  
+S2.3         @@@D9        3 0
+7000   3910  
+7000   4200  
+7100   4200  
+@@@D9        @@@D8        2 0
+7100   4200  
+7400   4200  
+
+*SIGNAL* $$$17477 64 0
+R9.2         D1.A         2 0
+3400   6100  
+3900   6100  
+
+*SIGNAL* $$$17480 64 0
+R10.2        D2.A         2 0
+3400   5000  
+4000   5000  
+
+*SIGNAL* $$$27079 64 0
+R11.2        J4.4         2 0
+11700  5800  
+11700  6100  
+
+*SIGNAL* $$$27174 64 0
+J4.6         @@@D5        2 0
+12300  6100  
+12300  5700  
+@@@D6        S1.4         2 0
+12900  5300  
+12900  5120  
+@@@D5        R12.2        2 0
+12300  5700  
+12300  5500  
+@@@D6        S1.3         3 0
+12900  5300  
+13000  5300  
+13000  5110  
+@@@D6        @@@D5        4 0
+12900  5300  
+12600  5300  
+12600  5700  
+12300  5700  
+
+*NETNAMES*
+
+
+
+XTAL_1_22    @@@O1        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+XTAL_0_23    @@@O2        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+FOR_FSR_20   @@@O4        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+GND          @@@O5        100    -50    0 0 0      0      0 0 -1 10 97 "Default Font"
++3.3V        @@@O3        0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+USB_UP_LED_32 @@@O6        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+TEST_LED_45  @@@O7        -360   0      0 1 0      0      0 3 -1 10 97 "Default Font"
+UART_RX0_99  @@@O11       0      -360   90 3 0      0      90 3 -1 10 97 "Default Font"
++3.3V        @@@O12       210    -180   0 4 0      0      0 0 -1 10 97 "Default Font"
++3.3V        @@@O13       40     -360   0 4 0      0      0 0 -1 10 97 "Default Font"
+UART_TX0_98  @@@O14       0      -360   90 3 0      0      90 3 -1 10 97 "Default Font"
++3.3V        @@@O15       150    -320   0 4 0      0      0 0 -1 10 97 "Default Font"
+UART_TX0_98  @@@O17       0      -360   90 3 0      0      90 3 -1 10 97 "Default Font"
+UART_RX0_99  @@@O18       0      -360   90 3 0      0      90 3 -1 10 97 "Default Font"
++3.3V        @@@O21       0      250    0 4 0      0      0 0 -1 10 97 "Default Font"
+RESET_53     @@@O22       360    0      0 0 0      0      0 3 -1 10 97 "Default Font"
++3.3V        @@@O16       90     -450   0 4 0      0      0 0 -1 10 97 "Default Font"
+
+*SHT*   4 SHEET4 -1 $$$NONE
+*CAE*        GENERAL PARAMETERS FOR THE SHEET"
+
+SCALE        7.549          Scale of window expansion
+WINDOWCENTER 3630   3478    Point defining the center of the window
+BITCS0       0              system status bits
+BITCS1       0              system status bits
+BITCS2       0              system status bits
+
+*TEXT*       FREE TEXT
+
+2000   8850   0   0 194  10 0 "Default Font"
+USB_SUPPLY
+12200  8450   0   0 194  10 0 "Default Font"
+BATTERY
+3950   4950   0   0 194  10 0 "Default Font"
+BATTERY_DRAIN_PROTECTION
+5050   8200   0   0 194  10 0 "Default Font"
+SUPPLY
+
+*LINES*      LINES ITEMS
+
+SIZEB            LINES    16000  1700   34  52
+OPEN   2   10  255
+0      0     
+-5010  0     
+OPEN   2   10  255
+-500   0     
+-500   -950  
+OPEN   2   10  255
+-1800  -950  
+-1800  -1200 
+OPEN   2   10  255
+-3100  0     
+-3100  -950  
+OPEN   2   10  255
+-3800  0     
+-3800  -950  
+OPEN   2   10  255
+0      -950  
+-5000  -950  
+OPEN   2   10  255
+-5000  1290  
+-5000  -1200 
+OPEN   2   10  255
+0      800   
+-5000  800   
+OPEN   2   10  255
+-5000  -400  
+-7500  -400  
+CLOSED 7   10  255
+0      -1200 
+0      1290  
+-5000  1290  
+-5000  400   
+-7500  400   
+-7500  -1200 
+0      -1200 
+OPEN   2   10  255
+-5010  0     
+-7500  0     
+OPEN   2   10  255
+-5000  -800  
+-7500  -800  
+OPEN   2   10  255
+-6000  400   
+-6000  -1200 
+OPEN   2   10  255
+502    1150  
+2      1150  
+OPEN   2   10  255
+500    3550  
+0      3550  
+OPEN   2   10  255
+500    5900  
+0      5900  
+OPEN   2   10  255
+-2864  8100  
+-2864  7100  
+OPEN   2   10  255
+-464   8100  
+-464   7100  
+OPEN   2   10  255
+-1364  8100  
+-1364  7100  
+OPEN   2   10  255
+-2800  8800  
+-2800  8300  
+OPEN   2   10  255
+-5300  8800  
+-5300  8300  
+OPEN   2   10  255
+-7800  8800  
+-7800  8300  
+OPEN   2   10  255
+-10300 8800  
+-10300 8300  
+OPEN   2   10  255
+-12800 8800  
+-12800 8300  
+OPEN   2   10  255
+-15000 5900  
+-15500 5900  
+OPEN   2   10  255
+-15000 1150  
+-15500 1150  
+OPEN   2   10  255
+-15000 3550  
+-15500 3550  
+OPEN   5   10  255
+0      -1200 
+0      8300  
+-15000 8300  
+-15000 -1200 
+0      -1200 
+OPEN   2   10  255
+-3450  8100  
+0      8100  
+OPEN   2   10  255
+-3450  7900  
+0      7900  
+OPEN   2   10  255
+-3450  7500  
+0      7500  
+OPEN   2   10  255
+-3450  7300  
+0      7300  
+CLOSED 5   10  255
+0      8300  
+-3450  8300  
+-3450  7100  
+0      7100  
+0      8300  
+OPEN   2   10  255
+-3450  7700  
+0      7700  
+-6300  150    0   9 153  10 1 "Default Font"
+Drawn By
+-6300  -250   0   9 153  10 1 "Default Font"
+Checked By
+-6300  -650   0   9 153  10 1 "Default Font"
+QC By
+-6300  -1050  0   9 153  10 1 "Default Font"
+Released By
+-6000  150    0   8 153  10 1 "Default Font"
+Drawn Date
+-6000  -250   0   8 153  10 1 "Default Font"
+Checked Date
+-6000  -650   0   8 153  10 1 "Default Font"
+QC Date
+-6000  -1050  0   8 153  10 1 "Default Font"
+Release Date
+-2500  1050   0   12 250  10 1 "Default Font"
+Company Name
+-2300  400    0   12 250  10 1 "Default Font"
+Title
+-4400  -600   0   12 306  10 1 "Default Font"
+Code
+-3450  -600   0   12 306  10 1 "Default Font"
+Sheet Size
+-2000  -600   0   12 306  10 1 "Default Font"
+Drawing Number
+-300   -600   0   12 306  10 1 "Default Font"
+Revision
+-4550  -1050  0   8 153  10 1 "Default Font"
+Scale
+-1350  -1050  0   8 153  10 1 "Default Font"
+Sheet Number
+-900   -1050  0   8 153  10 1 "Default Font"
+Number of Sheets
+-400   -200   0   0 97   10 0 "Default Font"
+REV:
+-3600  -200   0   0 97   10 0 "Default Font"
+SIZE:
+-4550  -200   0   0 97   10 0 "Default Font"
+CODE:
+-7460  250    0   0 97   10 0 "Default Font"
+DRAWN:
+-5960  250    0   0 97   10 0 "Default Font"
+DATED:
+-5960  -150   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -150   0   0 97   10 0 "Default Font"
+CHECKED:
+-7460  -550   0   0 97   10 0 "Default Font"
+QUALITY CONTROL:
+-5960  -550   0   0 97   10 0 "Default Font"
+DATED:
+-5960  -950   0   0 97   10 0 "Default Font"
+DATED:
+-7460  -950   0   0 97   10 0 "Default Font"
+RELEASED:
+-4960  1100   0   0 97   10 0 "Default Font"
+COMPANY:
+-4960  600    0   0 97   10 0 "Default Font"
+TITLE:
+-2150  -200   0   0 97   10 0 "Default Font"
+DRAWING NO:
+-1750  -1100  0   0 97   10 0 "Default Font"
+SHEET:     OF
+-4950  -1100  0   0 97   10 0 "Default Font"
+SCALE:
+-2200  8150   0   0 97   10 0 "Default Font"
+REVISION RECORD
+-1200  7950   0   0 97   10 0 "Default Font"
+APPROVED:
+-2350  7950   0   0 97   10 0 "Default Font"
+ECO NO:
+100    -50    0   0 250  25 0 "Default Font"
+A
+100    2350   0   0 250  25 0 "Default Font"
+B
+100    7100   0   0 250  25 0 "Default Font"
+D
+-414   7950   0   0 97   10 0 "Default Font"
+DATE:
+-1550  8400   0   0 250  25 0 "Default Font"
+1
+-4050  8400   0   0 250  25 0 "Default Font"
+2
+-6550  8400   0   0 250  25 0 "Default Font"
+3
+-9050  8400   0   0 250  25 0 "Default Font"
+4
+-11550 8400   0   0 250  25 0 "Default Font"
+5
+-13900 8400   0   0 250  25 0 "Default Font"
+6
+-15250 7100   0   0 250  25 0 "Default Font"
+D
+-15250 4700   0   0 250  25 0 "Default Font"
+C
+-15250 -50    0   0 250  25 0 "Default Font"
+A
+-15250 2350   0   0 250  25 0 "Default Font"
+B
+100    4700   0   0 250  25 0 "Default Font"
+C
+-3250  7950   0   0 97   10 0 "Default Font"
+LTR
+D73630           LINES    13150  8400   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1200 
+-1200  -1200 
+-1200  0     
+0      0     
+DRW74882         LINES    1750   8800   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1200 
+1050   -1200 
+1050   0     
+0      0     
+D87424           LINES    5100   8100   1   0
+CLOSED 5   30  0  
+0      0     
+0      -1200 
+1050   -1200 
+1050   0     
+0      0     
+
+*CAEDECAL*  ITEMS
+
+PIN              34000 34000 97 10 97 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+140 20 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-520 0 0 1 100 10 "Default Font"
+*
+-80 0 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+
+PINB             34000 34000 97 10 97 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+230 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+140   0    
+190   0    
+
+PCLK             33500 33180 97 10 97 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+200   0    
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+
+PCLKB            33500 33180 97 10 97 10 4 3 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+280 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   3   10  255
+200   30   
+260   0    
+200   -30  
+OPEN   2   10  255
+0     0    
+140   0    
+CIRCLE 2   10  255
+190   0    
+140   0    
+
+PINIEB           34000 34000 97 10 97 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+220 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   4   10  255
+0     0    
+200   0    
+140   30   
+140   0    
+
+PINORB           34000 34000 97 10 97 10 4 2 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+130 14 0 1 100 10 "Default Font"
+REF-DES
+300 0 0 8 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+180   0    
+CIRCLE 2   10  255
+230   0    
+180   0    
+
+PINSHORT         34000 34000 97 10 97 10 4 1 0 0 0 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+60 10 0 1 100 10 "Default Font"
+REF-DES
+140 10 0 8 100 10 "Default Font"
+PART-TYPE
+-530 10 0 1 100 10 "Default Font"
+*
+-70 10 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+100   0    
+
+PINVRTS          34000 34000 97 10 97 10 4 1 0 0 3 1
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+20 -80 0 0 100 10 "Default Font"
+REF-DES
+-20 -40 0 9 100 10 "Default Font"
+PART-TYPE
+-500 10 0 1 100 10 "Default Font"
+*
+-30 14 0 1 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -100 
+0     0    
+
+CONIN            32000 32000 97 10 97 10 4 3 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 "Default Font"
+*
+-850 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-600  100  
+-600  -100 
+OPEN   2   10  255
+-200  100  
+-200  -100 
+OPEN   2   10  255
+-200  0    
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+CONOUT           32000 32000 97 10 97 10 4 3 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+400 -30 0 4 100 10 "Default Font"
+REF-DES
+780 -110 0 6 100 10 "Default Font"
+PART-TYPE
+840 80 0 6 100 10 "Default Font"
+*
+840 -20 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+600   100  
+600   -100 
+OPEN   2   10  255
+200   0    
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+CONIN1           32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-540 -30 0 4 100 10 "Default Font"
+REF-DES
+-540 -200 0 6 100 10 "Default Font"
+PART-TYPE
+-530 -300 0 6 100 10 "Default Font"
+*
+-530 -400 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-200  0    
+0     0    
+CLOSED 5   10  255
+-300  100   900   -1800 -400  -100  -200  100  
+-300  -100 
+-800  -100  2700  -1800 -900  -100  -700  100  
+-800  100  
+-300  100  
+T0     0     0 0 90 -30 0 0 0 0 0 8 
+P10 200 0 0 0 0 0 0 192
+
+CONOUT1          32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+550 -30 0 4 100 10 "Default Font"
+REF-DES
+550 -200 0 6 100 10 "Default Font"
+PART-TYPE
+550 -310 0 6 100 10 "Default Font"
+*
+550 -420 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   0    
+0     0    
+CLOSED 5   10  255
+300   100   900   1800  200   -100  400   100  
+300   -100 
+800   -100  2700  1800  700   -100  900   100  
+800   100  
+300   100  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P-90 200 0 0 0 0 0 0 192
+
+CON_IO           32000 32000 97 10 97 10 4 2 0 1 30 0
+TIMESTAMP 2018.07.15.09.58.04
+"Default Font"
+"Default Font"
+-500 -40 0 4 100 10 "Default Font"
+REF-DES
+-500 -190 0 6 100 10 "Default Font"
+PART-TYPE
+-500 -300 0 6 100 10 "Default Font"
+*
+-500 -400 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+-200  0    
+0     0    
+CLOSED 7   10  255
+-200  0    
+-300  -100 
+-700  -100 
+-800  0    
+-700  100  
+-300  100  
+-200  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 192
+
+REFIN            33500 33180 97 10 97 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+-360 0 0 1 100 10 "Default Font"
+REF-DES
+-360 -20 0 3 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   7   5   255
+0     0    
+-100  0    
+-150  -50  
+-300  -50  
+-300  50   
+-150  50   
+-100  0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+REFOUT           33500 33180 97 10 97 10 4 1 0 1 24 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+350 10 0 0 100 10 "Default Font"
+REF-DES
+350 -10 0 2 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   8   5   255
+0     0    
+100   0    
+100   50   
+250   50   
+300   0    
+250   -50  
+100   -50  
+100   0    
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+GND              33500 33180 97 10 97 10 4 4 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+100 -50 0 0 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-60   -160 
+60    -160 
+OPEN   2   5   255
+-20   -220 
+20    -220 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+AGND             33500 33180 97 10 97 10 4 1 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+260 0 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   6   5   255
+0     0    
+0     -50  
+-100  -50  
+0     -200 
+100   -50  
+0     -50  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+CHGND            33500 33180 97 10 97 10 4 5 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+264 -40 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -100 
+OPEN   2   5   255
+-100  -100 
+100   -100 
+OPEN   2   5   255
+-100  -100 
+-150  -200 
+OPEN   2   5   255
+0     -100 
+-50   -200 
+OPEN   2   5   255
+100   -100 
+50    -200 
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5V              33500 33180 97 10 97 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 250 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 0 100 10 "Default Font"
+PART-TYPE
+0 100 0 0 100 10 "Default Font"
+*
+0 0 0 0 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     200  
+COPCLS 4   5   255
+0     200  
+-50   100  
+50    100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+BUBBLE           33500 33180 97 10 97 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     100  
+CIRCLE 2   10  255
+0     100  
+0     200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+Y                33500 33180 97 10 97 10 4 2 0 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+0 300 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   3   10  255
+0     0    
+0     100  
+-100  200  
+OPEN   2   10  255
+0     100  
+100   200  
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++12V             33500 33274 97 10 97 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+4 484 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     300  
+COPCLS 4   5   255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   356    0   0 97  10
++12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-5V              33500 33274 97 10 97 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+16 -520 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-80    -388   0   0 97  10
+-5V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+-12V             33500 33274 97 10 97 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 -560 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   5   255
+0     0    
+0     -300 
+COPCLS 4   5   255
+0     -300 
+50    -150 
+-50   -150 
+0     -300 
+-116   -412   0   0 97  10
+-12V
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
++5VA             33500 33274 97 10 97 10 4 2 1 1 26 0
+TIMESTAMP 1999.08.25.21.39.16
+"Default Font"
+"Default Font"
+8 468 0 4 100 10 "Default Font"
+REF-DES
+0 200 0 6 100 10 "Default Font"
+PART-TYPE
+0 100 0 6 100 10 "Default Font"
+*
+0 0 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     0    
+0     300  
+COPCLS 4   10  255
+0     300  
+-50   150  
+50    150  
+0     300  
+-108   336    0   0 97  10
++5VA
+T0     0     0 0 0 0 0 0 0 0 0 8 
+P0 0 0 0 0 0 0 0 128
+
+RESZ-H           32000 32000 97 10 97 10 4 1 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 "Default Font"
+REF-DES
+310 200 0 4 100 10 "Default Font"
+PART-TYPE
+300 -100 0 6 100 10 "Default Font"
+VALUE
+300 -200 0 6 100 10 "Default Font"
+*
+OPEN   10  10  255
+100   0    
+120   0    
+150   60   
+210   -60  
+270   60   
+330   -60  
+390   60   
+450   -60  
+470   0    
+500   0    
+T0     0     0 0 34 16 0 0 170 -30 0 8 PINSHORT
+P-80 -30 0 1 0 0 0 0 128
+T600   0     0 1 0 20 0 0 170 -30 0 8 PINSHORT
+P-90 -20 0 1 0 0 0 0 128
+
+RESZ-V           32000 32000 97 10 97 10 4 1 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+100 -280 0 0 100 10 "Default Font"
+REF-DES
+100 -180 0 0 100 10 "Default Font"
+PART-TYPE
+100 -320 0 2 100 10 "Default Font"
+VALUE
+100 -420 0 2 100 10 "Default Font"
+*
+OPEN   10  10  255
+0     -500 
+0     -480 
+-60   -450 
+60    -390 
+-60   -330 
+60    -270 
+-60   -210 
+60    -150 
+0     -130 
+0     -100 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P840 80 0 1 0 0 0 0 128
+T0     -600  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P840 40 0 1 0 0 0 0 128
+
+RESB-H           32000 32000 97 10 97 10 4 2 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+300 80 0 4 100 10 "Default Font"
+REF-DES
+300 180 0 4 100 10 "Default Font"
+PART-TYPE
+310 -120 0 12 100 10 "Default Font"
+VALUE
+300 -80 0 6 100 10 "Default Font"
+*
+OPEN   7   10  255
+100   0    
+150   0    
+150   50   
+450   50   
+450   -50  
+150   -50  
+150   0    
+OPEN   2   10  255
+450   0    
+500   0    
+T0     0     0 0 34 16 0 0 170 -30 0 8 PINSHORT
+P-160 0 0 1 0 0 0 0 128
+T600   0     0 1 34 16 0 0 170 -30 0 8 PINSHORT
+P-160 0 0 1 0 0 0 0 128
+
+RESB-V           32000 32000 97 10 97 10 4 2 0 2 2 0
+TIMESTAMP 2018.07.18.06.02.42
+"Default Font"
+"Default Font"
+140 -260 0 0 100 10 "Default Font"
+REF-DES
+210 -80 0 2 100 10 "Default Font"
+PART-TYPE
+140 -290 0 2 100 10 "Default Font"
+VALUE
+180 -400 0 2 100 10 "Default Font"
+*
+OPEN   7   10  255
+0     -460 
+0     -410 
+-50   -410 
+-50   -110 
+50    -110 
+50    -410 
+0     -410 
+OPEN   2   10  255
+0     -110 
+0     -60  
+T0     0     90 2 90 -30 90 2 170 -30 0 8 PINSHORT
+P-10 -190 90 2 0 0 0 0 128
+T0     -500  90 0 80 -30 90 2 170 -30 0 8 PINSHORT
+P-10 -160 90 2 0 0 0 0 128
+
+NPN              32000 32000 97 10 97 10 4 6 0 3 2 0
+TIMESTAMP 2018.07.12.06.25.00
+"Default Font"
+"Default Font"
+700 50 0 0 100 10 "Default Font"
+REF-DES
+700 -100 0 0 100 10 "Default Font"
+PART-TYPE
+590 20 0 2 100 10 "Default Font"
+*
+590 -100 0 2 100 10 "Default Font"
+*
+CIRCLE 2   10  255
+100   0    
+532   0    
+OPEN   2   10  255
+200   50   
+400   200  
+OPEN   2   25  255
+200   100  
+200   -100 
+OPEN   2   10  255
+200   0    
+100   0    
+OPEN   2   10  255
+200   -50  
+400   -200 
+COPCLS 4   10  255
+260   -134 
+302   -90  
+324   -144 
+260   -134 
+T400   -300  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-500 10 0 1 0 0 0 0 128
+T0     0     0 0 140 20 0 1 230 0 0 8 PIN
+P-520 0 0 1 0 0 0 0 128
+T400   300   0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-500 10 0 1 0 0 0 0 128
+
+MC_USB           33500 33500 97 10 97 10 4 1 0 5 0 0
+TIMESTAMP 2018.07.12.06.56.54
+"Default Font"
+"Default Font"
+-300 200 0 4 97 10 "Default Font"
+REF-DES
+-250 150 0 6 97 10 "Default Font"
+PART-TYPE
+-750 -300 0 6 97 10 "Default Font"
+*
+-750 -400 0 6 97 10 "Default Font"
+*
+CLOSED 5   10  255
+-350  50   
+-350  -550 
+-100  -550 
+-100  50   
+-350  50   
+T0     0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -100  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -200  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -300  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -400  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+LM_358_OP        33500 33500 97 10 97 10 4 6 0 5 0 0
+TIMESTAMP 2018.07.15.09.29.49
+"Default Font"
+"Default Font"
+0 200 0 4 97 10 "Default Font"
+REF-DES
+0 200 0 6 97 10 "Default Font"
+PART-TYPE
+100 -200 0 6 97 10 "Default Font"
+*
+100 -300 0 6 97 10 "Default Font"
+*
+OPEN   4   10  255
+-350  100  
+-350  -100 
+-150  0    
+-350  100  
+OPEN   2   10  255
+-400  50   
+-350  50   
+OPEN   2   10  255
+-400  -50  
+-350  -50  
+OPEN   2   10  255
+-250  100  
+-250  50   
+OPEN   2   10  255
+-250  -50  
+-250  -100 
+OPEN   2   10  255
+-150  0    
+-100  0    
+T-500  50    0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-500  -50   0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-250  -200  90 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T-250  200   90 2 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+ZENNER_SOD80     33500 33500 97 10 97 10 4 4 0 2 0 0
+TIMESTAMP 2018.07.15.09.45.56
+"Default Font"
+"Default Font"
+300 300 0 4 97 10 "Default Font"
+REF-DES
+300 250 0 6 97 10 "Default Font"
+PART-TYPE
+450 -150 0 6 97 10 "Default Font"
+*
+450 -250 0 6 97 10 "Default Font"
+*
+CLOSED 4   10  255
+150   100  
+150   -100 
+350   0    
+150   100  
+OPEN   4   10  255
+300   -100 
+350   -50  
+350   50   
+400   100  
+OPEN   2   10  255
+350   0    
+400   0    
+OPEN   2   10  255
+100   0    
+150   0    
+T0     0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T500   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+MCP73843         33500 33500 97 10 97 10 4 1 0 8 0 0
+TIMESTAMP 2018.07.18.05.42.22
+"Default Font"
+"Default Font"
+650 350 0 4 97 10 "Default Font"
+REF-DES
+650 300 0 6 97 10 "Default Font"
+PART-TYPE
+750 -600 0 6 97 10 "Default Font"
+*
+750 -700 0 6 97 10 "Default Font"
+*
+CLOSED 5   10  255
+100   150  
+100   -550 
+850   -550 
+850   150  
+100   150  
+T0     0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -150  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -300  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -450  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T950   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T950   -150  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T950   -300  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T950   -450  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+LED              32000 32000 97 10 97 10 4 8 0 2 0 0
+TIMESTAMP 2018.07.18.06.02.15
+"Default Font"
+"Default Font"
+100 200 0 4 100 10 "Default Font"
+REF-DES
+250 -150 0 6 100 10 "Default Font"
+PART-TYPE
+250 -250 0 6 100 10 "Default Font"
+*
+250 -350 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+90    0    
+390   0    
+OPEN   2   10  255
+340   90   
+340   -90  
+COPCLS 4   10  255
+190   0    
+190   -90  
+340   0    
+190   0    
+COPCLS 4   10  255
+190   0    
+190   90   
+340   0    
+190   0    
+OPEN   2   10  255
+250   150  
+350   250  
+COPCLS 5   10  255
+350   250  
+290   230  
+320   190  
+330   180  
+350   250  
+OPEN   2   10  255
+350   150  
+450   250  
+COPCLS 5   10  255
+460   260  
+400   240  
+430   200  
+440   190  
+460   260  
+T500   0     0 1 130 14 0 1 170 -30 0 8 PINSHORT
+P-500 10 0 1 0 0 0 0 128
+T0     0     0 0 130 14 0 1 170 -30 0 8 PINSHORT
+P-500 10 0 1 0 0 0 0 128
+
+LED-V            32000 32000 97 10 97 10 4 8 0 2 0 0
+TIMESTAMP 2018.07.18.06.02.15
+"Default Font"
+"Default Font"
+-300 350 0 4 100 10 "Default Font"
+REF-DES
+350 250 0 6 100 10 "Default Font"
+PART-TYPE
+350 150 0 6 100 10 "Default Font"
+COLOR
+350 50 0 6 100 10 "Default Font"
+PART NUMBER
+OPEN   2   10  255
+0     190  
+0     490  
+COPCLS 4   10  255
+0     290  
+-90   290  
+0     440  
+0     290  
+COPCLS 4   10  255
+0     290  
+90    290  
+0     440  
+0     290  
+OPEN   2   10  255
+90    440  
+-90   440  
+OPEN   2   10  255
+76    376  
+176   476  
+COPCLS 5   10  255
+176   476  
+116   456  
+146   416  
+156   406  
+176   476  
+OPEN   2   10  255
+176   376  
+276   476  
+COPCLS 5   10  255
+286   486  
+226   466  
+256   426  
+266   416  
+286   486  
+T0     600   90 2 100 100 90 2 230 0 0 8 PIN
+P-180 470 90 2 0 0 0 0 128
+T0     100   90 0 90 100 90 2 230 0 0 8 PIN
+P-160 360 90 2 0 0 0 0 128
+
+NDS8434          33500 33500 97 10 97 10 4 1 0 8 0 0
+TIMESTAMP 2018.07.18.05.54.19
+"Default Font"
+"Default Font"
+400 300 0 4 97 10 "Default Font"
+REF-DES
+400 250 0 6 97 10 "Default Font"
+PART-TYPE
+650 -450 0 6 97 10 "Default Font"
+*
+650 -550 0 6 97 10 "Default Font"
+*
+CLOSED 5   10  255
+100   100  
+100   -400 
+700   -400 
+700   100  
+100   100  
+T0     0     0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -100  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -200  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T0     -300  0 0 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T800   0     0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T800   -100  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T800   -200  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+T800   -300  0 1 60 10 0 1 140 10 0 8 PINSHORT
+P-530 10 0 1 -70 10 0 1 0
+
+CAP              32000 32000 97 10 97 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 "Default Font"
+REF-DES
+210 -40 0 2 97 10 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 "Default Font"
+VALUE
+150 -340 0 2 97 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300 
+100   -300 
+OPEN   2   10  255
+0     -300 
+0     -500 
+T0     0     0 0 20 -90 0 0 -20 -40 0 9 PINVRTS
+P-110 -140 0 1 -30 14 0 1 0
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-110 -130 0 1 -30 14 0 1 0
+
+CAPA             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+180 -210 0 0 100 10 "Default Font"
+REF-DES
+240 -30 0 2 100 10 "Default Font"
+PART-TYPE
+180 -250 0 2 100 10 "Default Font"
+VALUE
+180 -360 0 2 100 10 "Default Font"
+*
+OPEN   2   10  255
+0     -200 
+0     -50  
+OPEN   2   1   255
+-100  -200 
+100   -200 
+OPEN   2   1   255
+-100  -300  1333  -866  -140  -550  140   -260 
+100   -300 
+OPEN   2   10  255
+0     -260 
+0     -500 
+T0     0     0 0 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-76 -112 0 1 0 0 0 0 128
+T0     -500  0 2 20 -80 0 0 -20 -40 0 9 PINVRTS
+P-72 -136 0 1 0 0 0 0 128
+
+CAPH             32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+260 -140 0 6 100 10 "Default Font"
+VALUE
+260 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+100   0    
+200   0    
+OPEN   2   10  255
+300   0    
+400   0    
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100  
+300   -100 
+T0     0     0 0 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -110 0 1 0 0 0 0 128
+T500   0     0 1 80 20 0 1 170 -30 0 8 PINSHORT
+P-40 -120 0 1 0 0 0 0 128
+
+CAPAH            32000 32000 139 10 139 10 4 4 0 2 26 0
+TIMESTAMP 2018.07.18.06.01.35
+"Default Font"
+"Default Font"
+250 150 0 4 100 10 "Default Font"
+REF-DES
+250 250 0 4 100 10 "Default Font"
+PART-TYPE
+250 -150 0 6 100 10 "Default Font"
+VALUE
+250 -250 0 6 100 10 "Default Font"
+*
+OPEN   2   10  255
+200   100  
+200   -100 
+OPEN   2   10  255
+300   100   1272  1056  250   -120  500   120  
+300   -100 
+OPEN   2   10  255
+200   0    
+100   0    
+OPEN   2   10  255
+250   0    
+400   0    
+T0     0     0 0 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+T500   0     0 1 30 20 0 1 170 -30 0 8 PINSHORT
+P-28 -104 0 1 0 0 0 0 128
+
+USB_C1           33500 33500 97 10 97 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.19.06.11.14
+"Default Font"
+"Default Font"
+450 200 0 4 97 10 "Default Font"
+REF-DES
+450 100 0 6 97 10 "Default Font"
+PART-TYPE
+150 -50 0 6 97 10 "Default Font"
+*
+150 -150 0 6 97 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 230 0 0 8 PINB
+P-500 10 0 1 -30 14 0 1 0
+
+USB_C2           33500 33500 97 10 97 10 4 0 0 1 0 0
+TIMESTAMP 2018.07.19.06.12.34
+"Default Font"
+"Default Font"
+450 200 0 4 97 10 "Default Font"
+REF-DES
+450 100 0 6 97 10 "Default Font"
+PART-TYPE
+350 -50 0 6 97 10 "Default Font"
+*
+350 -150 0 6 97 10 "Default Font"
+*
+T0     0     0 0 130 14 0 1 230 0 0 8 PINB
+P-500 10 0 1 -30 14 0 1 0
+
+
+*PARTTYPE*   ITEMS
+
+$OSR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+OFF 2
+REFIN S 
+REFOUT L 
+
+$GND_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+GND 3
+GND G GND
+AGND G AGND
+CHGND G CHGND
+
+$PWR_SYMS UND  0   0   2     0
+TIMESTAMP 1999.03.30.22.52.06
+PWR 7
++5V P +5V
+BUBBLE P +5V
+Y P +5V
++12V P +12V
+-5V P -5V
+-12V P -12V
++5VA P +5VA
+
+RES-1/4W RES  1   0   0     0
+TIMESTAMP 2018.07.18.06.02.41
+GATE 4 2 1
+RESZ-H
+RESZ-V
+RESB-H
+RESB-V
+1 1 U
+2 1 U
+
+TRANSISTOR TRX  1   0   0     3
+TIMESTAMP 2018.07.12.06.25.00
+GATE 1 3 1
+NPN
+E 0 U
+B 0 U
+C 0 U
+E B C 
+
+MC_USB UND  1   0   0     0
+TIMESTAMP 2018.07.12.06.57.02
+GATE 1 5 0
+MC_USB
+1 0 U VCC
+2 0 U
+3 0 U
+4 0 U
+5 0 U GND
+
+LM_358_OP UND  1   0   0     0
+TIMESTAMP 2018.07.15.09.29.49
+GATE 1 5 0
+LM_358_OP
+3 0 U +
+2 0 U -
+4 0 U
+8 0 U
+1 0 U
+
+ZENNER_SOD80 DIO  1   0   0     0
+TIMESTAMP 2018.07.15.09.46.00
+GATE 1 2 0
+ZENNER_SOD80
+1 0 U
+2 0 U
+
+HEADER022 CON  0   0   1     0
+TIMESTAMP 2018.07.15.09.58.03
+CONN 5 2
+CONIN S
+CONOUT L
+CONIN1 S
+CONOUT1 L
+CON_IO Z
+1 0 U
+2 0 U
+
+MCP73843 UND  1   0   0     0
+TIMESTAMP 2018.07.18.05.42.29
+GATE 1 8 0
+MCP73843
+1 0 U SENSE
+2 0 U VDD
+3 0 U STAT1
+4 0 U EN
+8 0 U DRV
+7 0 U VBAT
+6 0 U VSS
+5 0 U TIMER
+
+LED DIO  1   0   0     2
+TIMESTAMP 2018.07.18.06.02.14
+GATE 2 2 0
+LED
+LED-V
+K 0 U
+A 0 U
+K A 
+
+NDS8434 UND  1   0   0     0
+TIMESTAMP 2018.07.18.05.54.23
+GATE 1 8 0
+NDS8434
+1 0 U
+2 0 U
+3 0 U
+4 0 U
+8 0 U
+7 0 U
+6 0 U
+5 0 U
+
+CAP-CC05 CAP  1   0   0     0
+TIMESTAMP 2018.07.18.06.01.34
+GATE 4 2 0
+CAP
+CAPA
+CAPH
+CAPAH
+1 1 U
+2 1 U
+
+USB_C1 CUT  1   0   0     0
+TIMESTAMP 2018.07.19.06.11.14
+GATE 1 1 0
+USB_C1
+1 0 U
+
+USB_C2 CUT  1   0   0     0
+TIMESTAMP 2018.07.19.06.12.34
+GATE 1 1 0
+USB_C2
+1 0 U
+
+
+
+*PART*       ITEMS
+
+
+
+J6-1         HEADER022        12050 7900    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+J6-2         HEADER022        12050 7600    0 1 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+R14          RES-1/4W         2250  4800   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 1K
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R15          RES-1/4W         2250  4000   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 1.5K
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+R16          RES-1/4W         4200  3200   90 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 1K
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+Q3           TRANSISTOR       6600  4300    0 0 97 10 97 10 4 6 3 0 0 2
+"Default Font"
+"Default Font"
+700 50 0 0 100 10 0 "Default Font"
+REF-DES
+700 -100 0 0 100 10 0 "Default Font"
+PART-TYPE
+590 20 0 2 100 10 0 "Default Font"
+*
+590 -100 0 2 100 10 0 "Default Font"
+*
+"Description" NPN SILICON TRANSISTOR
+"Cost" 
+"Part Number" BC107
+"Manufacturer #1" MOTOROLA
+"Manufacturer #2" 
+"PCB DECAL" SOT23
+0 20 -80 0 0
+1 140 20 0 1
+2 20 -80 0 0
+
+U8           MC_USB           2450  8550    0 0 97 10 97 10 4 1 5 0 0 0
+"Default Font"
+"Default Font"
+-300 200 0 4 97 10 0 "Default Font"
+REF-DES
+-250 150 0 6 97 10 0 "Default Font"
+PART-TYPE
+-750 -300 0 6 97 10 0 "Default Font"
+*
+-750 -400 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" MC_USB
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+4 60 10 0 1
+
+J7-1         HEADER022        6050  7750    0 0 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+J7-2         HEADER022        6050  7450    0 0 97 10 97 10 4 5 1 0 0 30
+"Default Font"
+"Default Font"
+-400 -30 0 4 100 10 0 "Default Font"
+REF-DES
+-790 -110 0 6 100 10 0 "Default Font"
+PART-TYPE
+-850 100 0 6 100 10 0 "Default Font"
+*
+-850 0 0 6 100 10 0 "Default Font"
+*
+"Description" TWO PIN INLINE HEADER; 100 MIL CENTERS
+"Part Number" 
+"Manufacturer #1" 
+"Cost" 
+"PCB DECAL" CON_2PIN
+0 0 0 0 0
+
+U7           LM_358_OP        5650  4300    0 0 97 10 97 10 4 1 5 0 0 0
+"Default Font"
+"Default Font"
+0 200 0 4 97 10 0 "Default Font"
+REF-DES
+120 410 0 6 97 10 0 "Default Font"
+PART-TYPE
+100 -200 0 6 97 10 0 "Default Font"
+*
+100 -300 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" SO8-OPT
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+4 60 10 0 1
+
+D4           ZENNER_SOD80     4200  2500   90 0 97 10 97 10 4 1 2 0 0 0
+"Default Font"
+"Default Font"
+300 300 0 4 97 10 0 "Default Font"
+REF-DES
+300 250 0 6 97 10 0 "Default Font"
+PART-TYPE
+450 -150 0 6 97 10 0 "Default Font"
+*
+450 -250 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" SOD80
+0 60 10 0 1
+1 60 10 0 1
+
+U2           MCP73843         8400  7850    0 0 97 10 97 10 4 1 8 0 0 0
+"Default Font"
+"Default Font"
+650 350 0 4 97 10 0 "Default Font"
+REF-DES
+650 300 0 6 97 10 0 "Default Font"
+PART-TYPE
+750 -600 0 6 97 10 0 "Default Font"
+*
+750 -700 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" SOP65P490X1108N
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+4 60 10 0 1
+5 60 10 0 1
+6 60 10 0 1
+7 60 10 0 1
+
+R17          RES-1/4W         7350  7850    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 97 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 100mOhm
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+D3           LED              7350  7250    0 0 97 10 97 10 4 8 2 0 0 0
+"Default Font"
+"Default Font"
+100 200 0 4 100 10 0 "Default Font"
+REF-DES
+250 -150 0 6 100 10 0 "Default Font"
+PART-TYPE
+250 -250 0 6 100 10 0 "Default Font"
+*
+250 -350 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" D
+"Description" LIGHT EMITTING DIODE
+"Color" ???
+"Part Number" 
+"Manufacturer #1" 
+"PCB DECAL" 0603
+0 130 14 0 1
+1 130 14 0 1
+
+R18          RES-1/4W         7350  6800    0 0 97 10 97 10 4 9 2 0 0 2
+"Default Font"
+"Default Font"
+300 100 0 4 100 10 0 "Default Font"
+REF-DES
+310 200 0 4 100 10 0 "Default Font"
+PART-TYPE
+300 -100 0 6 100 10 3 "Default Font"
+Value
+300 -200 0 6 100 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" R
+"Description" RES BODY:100  CENTERS:500
+"Part Number" 
+"Value" 100K
+"Manufacturer #1" 
+"Tolerance" 
+"PCB DECAL" 0603
+0 34 16 0 0
+1 0 20 0 0
+
+U6           NDS8434          8500  8900    0 0 97 10 97 10 4 1 8 0 0 0
+"Default Font"
+"Default Font"
+400 300 0 4 97 10 0 "Default Font"
+REF-DES
+400 250 0 6 97 10 0 "Default Font"
+PART-TYPE
+650 -450 0 6 97 10 0 "Default Font"
+*
+650 -550 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" SO8-OPT
+0 60 10 0 1
+1 60 10 0 1
+2 60 10 0 1
+3 60 10 0 1
+4 60 10 0 1
+5 60 10 0 1
+6 60 10 0 1
+7 60 10 0 1
+
+C16          CAP-CC05         9550  7200    0 0 97 10 97 10 4 11 2 0 0 26
+"Default Font"
+"Default Font"
+150 -210 0 0 97 10 0 "Default Font"
+REF-DES
+210 -40 0 2 97 10 0 "Default Font"
+PART-TYPE
+150 -240 0 2 97 10 3 "Default Font"
+Value
+150 -340 0 2 97 10 0 "Default Font"
+*
+"Sim.Analog.Model" 
+"Sim.Analog.Order" Model$
+"Sim.Analog.Prefix" C
+"Description" RADIAL CERAMIC CAPACITOR, MIL-SPEC SIZE CK05
+"Part Number" CC05CGXXXX
+"Value" 0.1uf
+"Tolerance" ???
+"Voltage Rating" ???
+"Manufacturer #1" KEMET
+"Cost" 
+"PCB DECAL" 0603
+0 20 -90 0 0
+1 20 -80 0 0
+
+X7           USB_C1           3050  8600    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+450 200 0 4 97 10 0 "Default Font"
+REF-DES
+450 100 0 6 97 10 0 "Default Font"
+PART-TYPE
+150 -50 0 6 97 10 0 "Default Font"
+*
+150 -150 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" USB_C1
+0 130 14 0 1
+
+X8           USB_C2           3050  8200    0 0 97 10 97 10 4 1 1 0 0 0
+"Default Font"
+"Default Font"
+450 200 0 4 97 10 0 "Default Font"
+REF-DES
+450 100 0 6 97 10 0 "Default Font"
+PART-TYPE
+350 -50 0 6 97 10 0 "Default Font"
+*
+350 -150 0 6 97 10 0 "Default Font"
+*
+"PCB DECAL" USB_C2
+0 130 14 0 1
+
+
+*BUSSES*
+
+
+*OFFPAGE REFS*
+
+
+
+@@@O0    GND $GND_SYMS 11800  7200   0 0 0
+@@@O1    GND $GND_SYMS 2250   3450   0 0 0
+@@@O2    MC_SUPPLY $OSR_SYMS 2250   5600   90 3 0
+@@@O3    MC_SUPPLY $OSR_SYMS 4650   3700   0 3 0
+@@@O4    MC_SUPPLY $OSR_SYMS 7000   5100   90 2 0
+@@@O5    +3.3V $PWR_SYMS 7000   3400   0 3 0
+@@@O6    GND $GND_SYMS 6250   6200   0 0 0
+@@@O7    MC_SUPPLY $OSR_SYMS 5400   4550   90 2 0
+@@@O8    GND $GND_SYMS 5400   3500   0 0 0
+@@@O9    GND $GND_SYMS 4200   2000   0 0 0
+@@@O10   MC_SUPPLY $OSR_SYMS 10150  7550   90 0 0
+@@@O11   GND $GND_SYMS 9550   6550   0 0 0
+@@@O12   GND $GND_SYMS 9950   6550   0 0 0
+@@@O13   +5V $PWR_SYMS 7000   8250   0 0 0
+
+*TIEDOTS*
+
+
+
+@@@D0    7200   7750  
+@@@D1    7200   7750  
+@@@D2    7200   7250  
+@@@D3    7200   7850  
+@@@D4    7900   8900  
+@@@D5    7900   8800  
+@@@D6    10150  8900  
+@@@D7    10150  8800  
+@@@D8    10150  8700  
+@@@D9    10150  8600  
+@@@D10   10150  7700  
+@@@D11   2250   4700  
+@@@D12   7000   7750  
+@@@D13   4200   3100  
+
+*CONNECTION*
+
+
+*SIGNAL* $$$10847 64 0
+U7.1         Q3.B         2 0
+5650   4300  
+6600   4300  
+
+*SIGNAL* +3.3V 0 0
+Q3.E         @@@O5        2 0
+7000   4000  
+7000   3400  
+
+*SIGNAL* GND 0 0
+J6.2         @@@O0        3 0
+12050  7600  
+11800  7600  
+11800  7200  
+@@@O1        R15.1        2 0
+2250   3450  
+2250   4000  
+J7.2         @@@O6        3 0
+6050   7450  
+6250   7450  
+6250   6200  
+U7.4         @@@O8        2 0
+5400   4100  
+5400   3500  
+D4.1         @@@O9        2 0
+4200   2500  
+4200   2000  
+C16.2        @@@O11       2 0
+9550   6700  
+9550   6550  
+U2.6         @@@O12       3 0
+9350   7550  
+9950   7550  
+9950   6550  
+
+*SIGNAL* $$$2884 64 0
+R17.2        U2.1         2 0
+7950   7850  
+8400   7850  
+
+*SIGNAL* +5V 0 0
+J7.1         @@@D12       2 0
+6050   7750  
+7000   7750  
+U2.2         @@@D0        3 0
+8400   7700  
+7200   7700  
+7200   7750  
+@@@D0        @@@D3        2 0
+7200   7750  
+7200   7850  
+@@@D1        @@@D0        2 0
+7200   7750  
+7200   7750  
+@@@D1        @@@D2        2 0
+7200   7750  
+7200   7250  
+@@@D2        D3.A         2 0
+7200   7250  
+7350   7250  
+@@@D2        R18.1        3 0
+7200   7250  
+7200   6800  
+7350   6800  
+U6.1         @@@D4        2 0
+8500   8900  
+7900   8900  
+@@@D3        R17.1        2 0
+7200   7850  
+7350   7850  
+U6.2         @@@D5        2 0
+8500   8800  
+7900   8800  
+@@@D4        @@@D3        3 0
+7900   8900  
+7200   8900  
+7200   7850  
+U6.3         @@@D5        3 0
+8500   8700  
+7900   8700  
+7900   8800  
+@@@D5        @@@D4        2 0
+7900   8800  
+7900   8900  
+@@@D12       @@@D1        2 0
+7000   7750  
+7200   7750  
+@@@D12       @@@O13       2 0
+7000   7750  
+7000   8250  
+
+*SIGNAL* $$$19416 64 0
+U8.1         X7.1         4 0
+2450   8550  
+2950   8550  
+2950   8600  
+3050   8600  
+
+*SIGNAL* $$$3924 64 0
+R14.1        @@@D11       2 0
+2250   4800  
+2250   4700  
+U7.3         @@@D11       4 0
+5150   4350  
+3300   4350  
+3300   4700  
+2250   4700  
+@@@D11       R15.2        2 0
+2250   4700  
+2250   4600  
+
+*SIGNAL* $$$19419 64 0
+U8.5         X8.1         3 0
+2450   8150  
+3050   8150  
+3050   8200  
+
+*SIGNAL* $$$3957 64 0
+R16.1        @@@D13       2 0
+4200   3200  
+4200   3100  
+U7.2         @@@D13       4 0
+5150   4250  
+3800   4250  
+3800   3100  
+4200   3100  
+@@@D13       D4.2         2 0
+4200   3100  
+4200   3000  
+
+*SIGNAL* MC_SUPPLY 0 0
+@@@O2        R14.2        2 0
+2250   5600  
+2250   5400  
+R16.2        @@@O3        4 0
+4200   3800  
+4200   4100  
+4650   4100  
+4650   3700  
+Q3.C         @@@O4        2 0
+7000   4600  
+7000   5100  
+U7.8         @@@O7        2 0
+5400   4500  
+5400   4550  
+U6.8         @@@D6        2 0
+9300   8900  
+10150  8900  
+U6.7         @@@D7        2 0
+9300   8800  
+10150  8800  
+@@@D6        J6.1         4 0
+10150  8900  
+11450  8900  
+11450  7900  
+12050  7900  
+U6.6         @@@D8        2 0
+9300   8700  
+10150  8700  
+@@@D7        @@@D6        2 0
+10150  8800  
+10150  8900  
+U6.5         @@@D9        2 0
+9300   8600  
+10150  8600  
+@@@D8        @@@D7        2 0
+10150  8700  
+10150  8800  
+@@@D9        @@@D8        2 0
+10150  8600  
+10150  8700  
+@@@D9        @@@D10       2 0
+10150  8600  
+10150  7700  
+U2.7         @@@D10       2 0
+9350   7700  
+10150  7700  
+@@@D10       @@@O10       2 0
+10150  7700  
+10150  7550  
+
+*SIGNAL* $$$2955 64 0
+D3.K         U2.3         4 0
+7850   7250  
+8050   7250  
+8050   7550  
+8400   7550  
+
+*SIGNAL* $$$3020 64 0
+R18.2        U2.4         4 0
+7950   6800  
+8250   6800  
+8250   7400  
+8400   7400  
+
+*SIGNAL* $$$3386 64 0
+U6.4         U2.8         5 0
+8500   8600  
+8500   8350  
+9450   8350  
+9450   7850  
+9350   7850  
+
+*SIGNAL* $$$3607 64 0
+U2.5         C16.1        3 0
+9350   7400  
+9550   7400  
+9550   7200  
+
+*NETNAMES*
+
+
+
+MC_SUPPLY    @@@O2        0      360    90 0 0      0      90 3 -1 10 97 "Default Font"
+MC_SUPPLY    @@@O3        590    160    0 1 0      0      90 3 -1 10 97 "Default Font"
+MC_SUPPLY    @@@O4        0      360    90 0 0      0      90 3 -1 10 100 "Default Font"
++3.3V        @@@O5        0      -250   0 7 0      0      0 0 -1 10 100 "Default Font"
+MC_SUPPLY    @@@O7        0      360    90 0 0      0      90 3 -1 10 97 "Default Font"
+MC_SUPPLY    @@@O10       0      -360   90 3 0      0      90 3 -1 10 100 "Default Font"
+
+*END*     OF ASCII OUTPUT FILE
